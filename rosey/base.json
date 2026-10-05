@@ -1094,7 +1094,7 @@
       "total": 1
     },
     "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:subheading": {
-      "original": "\n          <p>A starting point for developers looking to build a website with Hugo, using editable regions in <strong>CloudCannon</strong>. Create your own copy, and start creating your own components to use in CloudCannon’s CMS.</p>\n\n        ",
+      "original": "\n          <p>A Looks all good point for developers looking to build a website with Hugo, using editable regions in <strong>CloudCannon</strong>. Create your own copy, and start creating your own components to use in CloudCannon’s CMS.</p>\n<p><strong>Hello</strong> there.</p>\n\n        ",
       "value": null,
       "pages": {
         "index.html": 1
