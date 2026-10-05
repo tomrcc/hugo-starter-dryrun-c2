@@ -2,9 +2,8 @@
 _schema: default
 title: Hugo Starter
 seo:
-  page_description: >-
-    A starting point for developers looking to build a website with Hugo, using
-    editable regions in CloudCannon.
+  page_description: A starting point for developers looking to build a website
+    with Hugo, using editable regions in CloudCannon.
   canonical_url:
   featured_image:
   featured_image_alt:
@@ -20,14 +19,16 @@ content_blocks:
       heading_gradient_color: '#A0A2FF'
     subheading:
       text_content: >-
-        A starting point for developers looking to build a website with Hugo,
-        using editable regions in **CloudCannon**. Create your own copy, and
-        start creating your own components to use in CloudCannon’s CMS.
+        A Looks all good point for developers looking to build a website with
+        Hugo, using editable regions in **CloudCannon**. Create your own copy,
+        and start creating your own components to use in CloudCannon’s CMS.
+
+
+        **Hello** there.
       text_color: '#333232'
     image:
       image_path: /images/transparent-bg/undraw-online-test.svg
-      alt_text: >-
-        An illustration of someone leaning against the inside of a desktop
+      alt_text: An illustration of someone leaning against the inside of a desktop
         computer monitor, with one leg dangled off the side. They're holding a
         piece of paper with a large 'A', and are next to some buttons on the
         screen.
@@ -59,10 +60,10 @@ content_blocks:
       text_color: '#333232'
     text:
       text_content: >-
-        The Hugo Starter's aim is to get developers building their
-        own site quickly in CloudCannon. This template is trying to strike a
-        balance between minimalism and easy-to-delete boilerplate, while
-        providing some commonly used features out of the box:
+        The Hugo Starter's aim is to get developers building their own site
+        quickly in CloudCannon. This template is trying to strike a balance
+        between minimalism and easy-to-delete boilerplate, while providing some
+        commonly used features out of the box:
 
 
         * [Blog with pagination & tags](/blog/paginated-collection/)
@@ -94,8 +95,7 @@ content_blocks:
       text_color: '#333232'
     image:
       image_path: /images/transparent-bg/undraw-hello.svg
-      alt_text: >-
-        An illustration of someone sitting a desk with a monitor and a pile of
+      alt_text: An illustration of someone sitting a desk with a monitor and a pile of
         books on it. Seen from behind, the figure is turned around to face us
         and is waving.
     button:
@@ -122,9 +122,8 @@ content_blocks:
       text_color: '#333232'
     image:
       image_path: /images/transparent-bg/undraw-startup.svg
-      alt_text: >-
-        An illustration of someone leaning on one leg while facing us, next to a
-        laptop that comes up their waist. One of their hands is on the back of
+      alt_text: An illustration of someone leaning on one leg while facing us, next to
+        a laptop that comes up their waist. One of their hands is on the back of
         the laptop, and one is in their pocket. On the laptop screen is an
         illustration of the world.
     button:
