@@ -1,0 +1,27 @@
+{
+  "ssg": "hugo",
+  "mode": "hosted",
+  "build": {
+    "install_command": "npm i",
+    "build_command": "npm run build",
+    "output_path": "public",
+    "environment_variables": [
+      {
+        "key": "HUGO_CACHEDIR",
+        "value": "/usr/local/__site/src/.hugo_cache/"
+      },
+      {
+        "key": "CLOUDCANNON_SYNC_PATHS",
+        "value": "/rosey/"
+      }
+    ],
+    "preserved_paths": "resources/,.hugo_cache/,node_modules/",
+    "manually_configure_urls": true,
+    "preserveOutput": false,
+    "includeGit": false,
+    "hugoVersion": "0.166.0",
+    "rubyVersion": "2.7.3",
+    "nodeVersion": "22",
+    "denoVersion": "1.40.2"
+  }
+}

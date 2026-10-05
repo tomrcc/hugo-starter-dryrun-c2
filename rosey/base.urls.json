@@ -1,0 +1,383 @@
+{
+  "version": 2,
+  "keys": {
+    "404.html": {
+      "original": "404.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/data-files/index.html": {
+      "original": "blog/data-files/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/editable-regions/index.html": {
+      "original": "blog/editable-regions/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/icons/index.html": {
+      "original": "blog/icons/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/index.html": {
+      "original": "blog/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/lighthouse-scores/index.html": {
+      "original": "blog/lighthouse-scores/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/markdown/index.html": {
+      "original": "blog/markdown/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/page-building/index.html": {
+      "original": "blog/page-building/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/page/1/index.html": {
+      "original": "blog/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/page/2/index.html": {
+      "original": "blog/page/2/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/paginated-collection/index.html": {
+      "original": "blog/paginated-collection/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/processed-images/index.html": {
+      "original": "blog/processed-images/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/search/index.html": {
+      "original": "blog/search/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/seo/index.html": {
+      "original": "blog/seo/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "blog/tailwind/index.html": {
+      "original": "blog/tailwind/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "categories/index.html": {
+      "original": "categories/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "categories/page/1/index.html": {
+      "original": "categories/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "index.html": {
+      "original": "index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/accessibility/index.html": {
+      "original": "tags/accessibility/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/accessibility/page/1/index.html": {
+      "original": "tags/accessibility/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/building/index.html": {
+      "original": "tags/building/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/building/page/1/index.html": {
+      "original": "tags/building/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/components/index.html": {
+      "original": "tags/components/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/components/page/1/index.html": {
+      "original": "tags/components/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/data/index.html": {
+      "original": "tags/data/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/data/page/1/index.html": {
+      "original": "tags/data/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/editable-regions/index.html": {
+      "original": "tags/editable-regions/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/editable-regions/page/1/index.html": {
+      "original": "tags/editable-regions/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/editing/index.html": {
+      "original": "tags/editing/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/editing/page/1/index.html": {
+      "original": "tags/editing/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/icons/index.html": {
+      "original": "tags/icons/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/icons/page/1/index.html": {
+      "original": "tags/icons/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/images/index.html": {
+      "original": "tags/images/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/images/page/1/index.html": {
+      "original": "tags/images/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/index.html": {
+      "original": "tags/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/inputs/index.html": {
+      "original": "tags/inputs/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/inputs/page/1/index.html": {
+      "original": "tags/inputs/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/live-editing/index.html": {
+      "original": "tags/live-editing/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/live-editing/page/1/index.html": {
+      "original": "tags/live-editing/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/markdown/index.html": {
+      "original": "tags/markdown/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/markdown/page/1/index.html": {
+      "original": "tags/markdown/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/navigation/index.html": {
+      "original": "tags/navigation/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/navigation/page/1/index.html": {
+      "original": "tags/navigation/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/page/1/index.html": {
+      "original": "tags/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/page/2/index.html": {
+      "original": "tags/page/2/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/page/3/index.html": {
+      "original": "tags/page/3/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/page/4/index.html": {
+      "original": "tags/page/4/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/pagination/index.html": {
+      "original": "tags/pagination/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/pagination/page/1/index.html": {
+      "original": "tags/pagination/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/schemas/index.html": {
+      "original": "tags/schemas/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/schemas/page/1/index.html": {
+      "original": "tags/schemas/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/search/index.html": {
+      "original": "tags/search/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/search/page/1/index.html": {
+      "original": "tags/search/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/seo/index.html": {
+      "original": "tags/seo/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/seo/page/1/index.html": {
+      "original": "tags/seo/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/snippets/index.html": {
+      "original": "tags/snippets/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/snippets/page/1/index.html": {
+      "original": "tags/snippets/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/styling/index.html": {
+      "original": "tags/styling/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/styling/page/1/index.html": {
+      "original": "tags/styling/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/tailwind/index.html": {
+      "original": "tags/tailwind/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/tailwind/page/1/index.html": {
+      "original": "tags/tailwind/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/wysiwyg-editing/index.html": {
+      "original": "tags/wysiwyg-editing/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    },
+    "tags/wysiwyg-editing/page/1/index.html": {
+      "original": "tags/wysiwyg-editing/page/1/index.html",
+      "value": null,
+      "pages": {},
+      "total": 0
+    }
+  }
+}

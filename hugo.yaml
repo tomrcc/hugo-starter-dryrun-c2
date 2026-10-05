@@ -1,0 +1,46 @@
+baseURL: 'https://frank-pine.cloudvent.net/'
+locale: en-us
+title: Hugo Starter
+module:
+  imports:
+    - path: github.com/CloudCannon/editable-regions
+  mounts:
+    - source: assets
+      target: assets
+    - source: static
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json
+params:
+  editable_regions:
+    verbose: false
+  # Languages offered by the visitor locale picker. Rosey builds /fr/ in the
+  # postbuild. Add German here once rosey/locales/de.json is translated.
+  locales:
+    - code: en
+      label: English
+    - code: fr
+      label: Français
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+  - source: assets/notwatching/hugo_stats\.json
+    target: css
+  - source: (postcss|tailwind)\.config\.js
+    target: css
+security:
+  exec:
+    allow:
+      - ^(dart-)?sass$
+      - ^go$
+      - ^git$
+      - ^node$
+      - ^postcss$
+      - ^tailwindcss$
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true

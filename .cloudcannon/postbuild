@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Rosey: generate keys, sync locale files, build /fr/ copies of every page.
+# German is held back until it's translated: add it with --locales fr,de on
+# write-locales (once) and in the fix script below.
+npx rosey generate --source public
+npx rosey-cloudcannon-connector write-locales --source rosey --dest public --locales fr
+
+npx rosey-cloudcannon-connector install-client --dest public
+
+rm -rf ./_untranslated_site
+mv ./public ./_untranslated_site
+npx rosey build --source _untranslated_site --dest public --default-language en --default-language-at-root --exclusions "\.(html?)$"
+
+# Canonical, og:url, alias redirects and sitemap entries on Rosey-generated pages.
+node .cloudcannon/fix-rosey-pages.mjs --source _untranslated_site --dest public --locales fr
+
+# Search index last, so it indexes every language (split by <html lang>).
+npx -y pagefind --site public

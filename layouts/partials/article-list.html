@@ -1,0 +1,126 @@
+<section class="blog-section">
+  {{/* Only layouts/blog/list.html passes editable_title, where the title maps
+       to content/blog/_index.md. Taxonomy titles are generated, with no file
+       to write back to. */}}
+  {{/* A term page's heading is its tag label, keyed once for every chip,
+       heading and listing that shows it. */}}
+  {{ if eq .context.Kind "term" }}
+    <h1 class="blog-hero-title" data-rosey-root="tag-labels" data-rosey="{{ urlize .context.Data.Term }}">{{ partial "tag-label.html" .context.Data.Term }}</h1>
+  {{ else }}
+    <h1 class="blog-hero-title" data-rosey="title"
+      {{ if .editable_title }}data-editable="text" data-prop="title" data-type="span"{{ end }}>{{ .context.Title }}</h1>
+  {{ end }}
+  <div class="search-bar">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+      });
+    </script>
+  </div>
+  
+  <div class="blog-article-grid">
+    <!-- Paginate is used for when you need to sort pages -->
+    <!-- Paginator is used for the pagination controls -->
+
+    {{ $pagesToPaginate := .context.Pages }}
+    {{ $pagesToPaginate = $pagesToPaginate.ByParam "post_hero.date" }}
+    {{ $pagesToPaginate = $pagesToPaginate.Reverse }}
+
+    {{ range (.context.Paginate $pagesToPaginate .page_size).Pages }}
+      <div class="blog-grid-item" data-rosey-root="{{ strings.TrimPrefix "/" .Path }}">
+        <a class="blog-grid-image" href="{{ .RelPermalink }}">
+          {{/* Via processed-image for its editor fallback. No prop
+               selectors: these thumbnails belong to other pages. */}}
+          {{ partial "processed-image" (dict
+            "image_path" .Params.thumb_image_path
+            "image_alt" .Params.thumb_image_alt
+            "rosey_alt" "thumb_image_alt"
+            "image_width" "1000"
+            "image_format" "webp"
+          ) }}
+        </a>
+        <h2 class="blog-post-title">
+          {{ if eq .Kind "term" }}
+            <a href="{{ .RelPermalink }}" class="" data-rosey-root="tag-labels" data-rosey="{{ urlize .Data.Term }}">{{ partial "tag-label.html" .Data.Term }}</a>
+          {{ else }}
+            <a href="{{ .RelPermalink }}" class="" data-rosey="title">{{ .Title }}</a>
+          {{ end }}
+        </h2>
+        {{ with .Params.post_hero.date }}
+          <p>{{ partial "blog-date.html" . }}</p>
+        {{ end }}
+        {{ with .Params.tags }}
+          <div class="blog-post-tags" data-rosey-root="tag-labels">
+            {{ range . }}{{ partial "tag-link.html" . }}{{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  {{ $paginator := .context.Paginator }} 
+  {{ if gt $paginator.TotalPages 1 }}
+    <nav class="blog-pagination" data-rosey-root="pagination">
+      <ul class="pagination">
+        {{ if $paginator.HasPrev }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Prev.URL }}" aria-label="Previous page" data-rosey-attrs-explicit='{"aria-label":"previous_page"}'>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.657"
+                height="11.314"
+                viewBox="0 0 20.657 11.314"
+                style="transform: scale(-1, 1)">
+                <g fill="#fff" data-name="Group 12">
+                  <path d="M0 4.657h18v2H0z" data-name="Rectangle 2400"></path>
+                  <path
+                    d="M13.586 9.9l5.6568542-5.6568542 1.4142136 1.4142135-5.6568542 5.6568543z"
+                    data-name="Rectangle 2401">
+                  </path>
+                  <path
+                    d="M15 0l5.6568542 5.6568542-1.4142135 1.4142136-5.6568543-5.6568542z"
+                    data-name="Rectangle 2402">
+                  </path>
+                </g>
+              </svg>
+            </a>
+          </li>
+        {{ end }} 
+        {{ range $paginator.Pagers }}
+          <li class="page-item">
+            <a
+              class="page-link {{ if eq . $paginator }}active{{ end }}"
+              href="{{.URL}}">
+              {{ .PageNumber }}
+            </a>
+          </li>
+        {{ end }} 
+        {{ if $paginator.HasNext }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Next.URL }}" aria-label="Next page" data-rosey-attrs-explicit='{"aria-label":"next_page"}'>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.657"
+                height="11.314"
+                viewBox="0 0 20.657 11.314">
+                <g fill="#fff" data-name="Group 12">
+                  <path d="M0 4.657h18v2H0z" data-name="Rectangle 2400"></path>
+                  <path
+                    d="M13.586 9.9l5.6568542-5.6568542 1.4142136 1.4142135-5.6568542 5.6568543z"
+                    data-name="Rectangle 2401">
+                  </path>
+                  <path
+                    d="M15 0l5.6568542 5.6568542-1.4142135 1.4142136-5.6568543-5.6568542z"
+                    data-name="Rectangle 2402">
+                  </path>
+                </g>
+              </svg>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  {{ end }}
+</section>

@@ -1,0 +1,69 @@
+.left-right {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left-right__wrapper {
+  width: 100%;
+  max-width: var(--pageContainer);
+  padding-inline: var(--pagePadding);
+  padding-block: var(--sectionPaddingMobile);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left-right__text-flipped h2,
+.left-right__text h2 {
+  font-size: 2rem;
+  line-height: 1em;
+  font-weight: 600;
+  text-wrap: balance;
+  margin-block: 30px;
+}
+
+.left-right__text-content {
+  margin-block: 2rem;
+}
+
+/* Sized to the button, so the Visual Editor's edit controls sit on the
+   button rather than at the far edge of the text column. */
+.left-right__button {
+  width: fit-content;
+}
+
+.left-right__image-flipped,
+.left-right__image-unflipped {
+  width: 100%;
+  margin-top: 32px;
+  order: 2;
+}
+
+.left-right__text,
+.left-right__text-flipped {
+  order: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .left-right__wrapper {
+    flex-direction: row;
+    padding-block: var(--sectionPadding);
+  }
+  .left-right__image-flipped,
+  .left-right__image-unflipped {
+    width: 45%;
+  }
+  .left-right__text-flipped,
+  .left-right__text {
+    width: 45%;
+  }
+  .left-right__image-flipped {
+    order: 1;
+  }
+  .left-right__text-flipped {
+    order: 2;
+  }
+}

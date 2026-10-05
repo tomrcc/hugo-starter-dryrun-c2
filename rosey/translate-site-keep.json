@@ -1,0 +1,32 @@
+{
+  "fr": {
+    "blog:page_title": "Blog | Hugo Starter by CloudCannon",
+    "blog:title": "Blog",
+    "blog/tailwind:page_title": "Tailwind | Hugo Starter by CloudCannon",
+    "blog/tailwind:title": "Tailwind",
+    "footer:blog": "Blog",
+    "footer:cloudcannon": "CloudCannon",
+    "footer:github": "GitHub",
+    "index:30ea041e-0636-4344-aeef-342c83f5d721:506d3f9d-6e3f-43a7-a293-e84270a6dc63:button_text": "GitHub",
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:e9e7c8c7-0028-4993-9f3f-41d4678e0491:button_text": "GitHub",
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:f1197fe2-a6e9-465b-956e-8a3287aace33:button_text": "CloudCannon",
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:heading": "Hugo Starter",
+    "index:page_title": "Hugo Starter",
+    "nav:blog": "Blog",
+    "nav:cloudcannon": "CloudCannon",
+    "nav:github": "GitHub",
+    "tag-labels:images": "Images",
+    "tag-labels:markdown": "Markdown",
+    "tag-labels:navigation": "Navigation",
+    "tag-labels:pagination": "Pagination",
+    "tag-labels:seo": "SEO",
+    "tag-labels:snippets": "Snippets",
+    "tag-labels:tailwind": "Tailwind",
+    "tags/images:page_title": "Images | Hugo Starter by CloudCannon",
+    "tags/markdown:page_title": "Markdown | Hugo Starter by CloudCannon",
+    "tags/navigation:page_title": "Navigation | Hugo Starter by CloudCannon",
+    "tags/pagination:page_title": "Pagination | Hugo Starter by CloudCannon",
+    "tags/snippets:page_title": "Snippets | Hugo Starter by CloudCannon",
+    "tags/tailwind:page_title": "Tailwind | Hugo Starter by CloudCannon"
+  }
+}

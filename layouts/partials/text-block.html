@@ -1,0 +1,35 @@
+{{/*
+  Text block content block: a heading over one to three columns of markdown.
+
+  Per-instance values arrive as custom properties on the section, styled from
+  assets/scss/components/text-block.scss, so two instances on a page don't
+  collide.
+*/}}
+<section
+  class="text-block"
+  {{ with ._uuid }} data-rosey-ns="{{ . }}"{{ end }}
+  style="
+    --text-block-bg: {{ .background_color }};
+    --text-block-columns: {{ .text_column_count }};
+    --text-block-align: {{ .text_alignment }};
+    --text-block-color: {{ .text_color }};
+    --text-block-item-margin-inline: {{ if eq .text_alignment "center" }}auto{{ else }}0{{ end }};">
+  <div class="markdown-text text-block-container">
+    <h2
+      style="color: {{ .heading.text_color }}; text-align: {{ .heading.text_alignment }};"
+      data-rosey="heading"
+      data-editable="text"
+      data-prop="heading.heading_text"
+      data-type="span">
+      {{ .heading.heading_text }}
+    </h2>
+    <div
+      class="text-block-body-content"
+      data-rosey="text_content"
+      data-editable="text"
+      data-prop="text_content"
+      data-type="block">
+      {{ .text_content | page.RenderString (dict "display" "block") }}
+    </div>
+  </div>
+</section>

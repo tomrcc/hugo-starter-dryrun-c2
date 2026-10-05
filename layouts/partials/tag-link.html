@@ -1,0 +1,3 @@
+{{- /* One tag chip: root-relative link (so Rosey localizes it) and a
+       content-as-key label. Needs a data-rosey-root="tag-labels" ancestor. */ -}}
+<a href="{{ print ("tags/" | relURL) (urlize .) "/" }}" data-rosey="{{ urlize . }}">{{ partial "tag-label.html" . }}</a>

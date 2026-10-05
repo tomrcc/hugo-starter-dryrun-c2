@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  {{- /* Rosey root from Hugo's logical path: the same on every paginator
+         page and distinct per taxonomy term. */ -}}
+  {{- $root := .Path | strings.TrimPrefix "/" | default "index" }}
+  <body>
+    {{/* RCC snapshot boundary: header, main and footer all hold keys. */}}
+    <div data-rcc>
+      <a href="#main" class="skip-button" data-rosey="skip_to_main_content">Skip to main content</a>
+      {{ partial "header.html" . }}
+      <main id="main" data-rosey-root="{{ $root }}">
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partial "footer.html" . }}
+    </div>
+
+    {{/* Rosey CloudCannon Connector: loads only inside the Visual Editor.
+         The postbuild's install-client step puts the file at /_rcc/. */}}
+    <script>
+      if (window?.inEditorMode) {
+        import("/_rcc/client.mjs").catch(console.error);
+      }
+    </script>
+
+    {{/* Visitor locale picker: hidden in the editor (the RCC has its own
+         switcher), active link highlighted on every other page. */}}
+    <script>
+      if (window.inEditorMode) {
+        document.querySelectorAll("nav[aria-label='Language']").forEach(function (nav) {
+          nav.style.display = "none";
+        });
+      } else {
+        document.querySelectorAll("nav[aria-label='Language'] a").forEach(function (link) {
+          link.classList.toggle("active", link.pathname === window.location.pathname);
+        });
+      }
+    </script>
+  </body>
+</html>

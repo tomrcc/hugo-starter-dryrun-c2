@@ -1,0 +1,7 @@
+{{- /*
+  The one place a tag's display label comes from, so every chip renders the
+  same English original for its Rosey key. Acronyms that humanize would
+  mangle (seo -> Seo) go in the overrides.
+*/ -}}
+{{- $overrides := dict "seo" "SEO" "wysiwyg-editing" "WYSIWYG editing" -}}
+{{- return (index $overrides (urlize .) | default (humanize .)) -}}

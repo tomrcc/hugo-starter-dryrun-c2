@@ -1,0 +1,2098 @@
+{
+  "version": 2,
+  "keys": {
+    "404:heading": {
+      "original": "Could not find the page you were looking for.",
+      "value": null,
+      "pages": {
+        "404.html": 1
+      },
+      "total": 1
+    },
+    "404:homepage_link": {
+      "original": "Homepage",
+      "value": null,
+      "pages": {
+        "404.html": 1
+      },
+      "total": 1
+    },
+    "404:page_title": {
+      "original": "404 Page not found | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "404.html": 2
+      },
+      "total": 2
+    },
+    "blog-related:heading": {
+      "original": "Recent Posts",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1
+      },
+      "total": 11
+    },
+    "blog/data-files:body": {
+      "original": "\n      <p>This template uses data files to:</p>\n<ul>\n<li>Populate select &amp; multiselect inputs in CloudCannon.\n<ul>\n<li>Colors</li>\n<li>Icons</li>\n<li>Tags</li>\n</ul>\n</li>\n<li>Set sitewide values such as the overall site SEO settings.\n<ul>\n<li>Site title</li>\n<li>Description</li>\n<li>OG image</li>\n<li>Page type</li>\n</ul>\n</li>\n<li>Control header and footer data to allow editors to control navigation.\n<ul>\n<li>Logo</li>\n<li>Colors</li>\n<li>Page links</li>\n<li>Social links</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/data-files:hero_image_alt": {
+      "original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer.",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/data-files:page_description": {
+      "original": "A post describing the role of data files in a Hugo site using CloudCannon as a CMS.",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/data-files:page_title": {
+      "original": "Data files | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/data-files:thumb_image_alt": {
+      "original": "A group collaborating around a laptop.",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 6
+    },
+    "blog/data-files:title": {
+      "original": "Data files",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 7
+    },
+    "blog/editable-regions:hero_image_alt": {
+      "original": "A child working at a computer, seen from behind.",
+      "value": null,
+      "pages": {
+        "blog/editable-regions/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/editable-regions:page_description": {
+      "original": "A post describing how editable regions make a Hugo site editable in place in CloudCannon's Visual Editor.",
+      "value": null,
+      "pages": {
+        "blog/editable-regions/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/editable-regions:page_title": {
+      "original": "Editable Regions | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/editable-regions/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/editable-regions:thumb_image_alt": {
+      "original": "A birds eye view of a group of people working on laptops around a table.",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/live-editing/index.html": 1
+      },
+      "total": 14
+    },
+    "blog/editable-regions:title": {
+      "original": "Editable Regions",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/live-editing/index.html": 1
+      },
+      "total": 15
+    },
+    "blog/icons:hero_image_alt": {
+      "original": "A man in front of a laptop with a coffee in a dimly lit cafe.",
+      "value": null,
+      "pages": {
+        "blog/icons/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/icons:page_description": {
+      "original": "A post describing how to use FontAwesome Icons throughout your site.",
+      "value": null,
+      "pages": {
+        "blog/icons/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/icons:page_title": {
+      "original": "Font Awesome Icons | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/icons/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/icons:thumb_image_alt": {
+      "original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer.",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/styling/index.html": 1
+      },
+      "total": 4
+    },
+    "blog/icons:title": {
+      "original": "Font Awesome Icons",
+      "value": null,
+      "pages": {
+        "blog/icons/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/styling/index.html": 1
+      },
+      "total": 5
+    },
+    "blog/lighthouse-scores:body": {
+      "original": "\n      <p>Green Lighthouse scores out of the box.</p>\n<h2 id=\"accessibility\">Accessibility</h2>\n<p>Made with accessibility in mind.</p>\n<ul>\n<li>Semantic html</li>\n<li>Skip to content button</li>\n<li>Descriptive aria-labels</li>\n<li>Descriptive image alt text</li>\n<li>Focusable html</li>\n</ul>\n<h2 id=\"performance\">Performance</h2>\n<p>An emphasis on low page bundle sizes, fast loading times, and short build times (which is probably the whole reason you’re using Hugo in the first place).</p>\n<h2 id=\"best-practices\">Best practices</h2>\n<p>Passes all the Lighthouse recommended best practices.</p>\n<h2 id=\"seo\">SEO</h2>\n<p>Control SEO values on a page-by-page, and site-wide basis. Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback. Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/lighthouse-scores:hero_image_alt": {
+      "original": "A woman on her phone in front of a laptop.",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/lighthouse-scores:page_description": {
+      "original": "A post describing what features come with the Hugo starter to ensure it has green lighthouse scores for accessibility, performance and SEO.",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/lighthouse-scores:page_title": {
+      "original": "Green Lighthouse Scores | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/lighthouse-scores/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/lighthouse-scores:thumb_image_alt": {
+      "original": "A top-down shot of people working at a table.",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 4
+    },
+    "blog/lighthouse-scores:title": {
+      "original": "Green Lighthouse Scores",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 5
+    },
+    "blog/markdown:body": {
+      "original": "\n      <h2 id=\"styling\">Styling</h2>\n<p>The markdown toolbar has most of the options allowed enabled in the rich text editor, along with the necessary styling required by those elements. See the CloudCannon <a href=\"https://cloudcannon.com/documentation/articles/configure-your-rich-text-editors/\">Docs</a> for more information about configuring the markdown that editors can add to pages.</p>\n<h2 id=\"snippets\">Snippets</h2>\n<p>A Snippet is a predefined component that complements your Markdown content. Snippets are great for building an interactive page editing experience without touching the underlying code.</p>\n<p>The name “Snippet” comes from “a snippet of source code” in your rich text content. However, Snippets in CloudCannon are not limited to just code. Snippets can accomplish many jobs. One might be a wrapper to contain shortcodes or templating language, while another might be a markup heading.</p>\n<p>Snippets excel at providing a way to:</p>\n<ul>\n<li>Represent and create any HTML or Markdown structures in your rich text editor that you cannot add using the WYSIWYG toolbar.</li>\n<li>Edit the value of any HTML parameters in a component using a GUI (rather than directly interfacing with the code).</li>\n</ul>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/markdown:hero_image_alt": {
+      "original": "Children gathered around a laptop, in a busy classroom.",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/markdown:page_description": {
+      "original": "A post describing what Markdown editing features come with the Hugo starter in CloudCannon.",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/markdown:page_title": {
+      "original": "Markdown Editing and Snippets | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/markdown:thumb_image_alt": {
+      "original": "Two people working either side of a table, with a distant view of a city in the background.",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/snippets/index.html": 1
+      },
+      "total": 3
+    },
+    "blog/markdown:title": {
+      "original": "Markdown Editing and Snippets",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/snippets/index.html": 1
+      },
+      "total": 4
+    },
+    "blog/page-building:body": {
+      "original": "\n      <h2 id=\"schemas\">Schemas</h2>\n<p>A schema is a predefined template that determines what should populate a collection file. You can configure several schemas for each collection, creating a list of file templates for you and your team.</p>\n<p>Schemas are used for creating files with consistent content and populating the initial contents of a new file. Schemas can apply to structured, markup, and combination files by containing both front matter and markup content or only data or markup content. When you use a schema to populate a new file, you can be sure that the inputs you need are available in the sidebar of the Visual or Content Editor.</p>\n<p>A blog schema might contain title, author, and hero image inputs in the front matter. A changelog schema for a technical documentation site might contain a date input in the front matter and headings for “Features” and “Fixes” in the Markdown content. A review schema might contain inputs for title, author, and rating, and “Today, we are reviewing the…” as the opening line in the Markdown content.</p>\n<h2 id=\"editable-regions\">Editable regions</h2>\n<p>Build custom components that non-technical editors can use in a page building experience in CloudCannon. <a href=\"/blog/editable-regions/\">Editable regions</a> enable live editing in CloudCannon’s Visual Editor.</p>\n<p>Editors can reuse existing components with new content to build new pages in the CMS.</p>\n<h2 id=\"content-editor\">Content Editor</h2>\n<p>Edit a page’s body content in CloudCannon’s WYSIWYG Content Editor if a page’s changeable content is mainly markdown body content, which shares a common layout. This is great for sections like the blog you are reading this in.</p>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/page-building:hero_image_alt": {
+      "original": "A group collaborating around a table.",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/page-building:page_description": {
+      "original": "A post describing what page building features come with the Hugo starter.",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/page-building:page_title": {
+      "original": "Page Building | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/page-building:thumb_image_alt": {
+      "original": "A group collaborating around a table.",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 8
+    },
+    "blog/page-building:title": {
+      "original": "Page Building",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 9
+    },
+    "blog/paginated-collection:body": {
+      "original": "\n      <p>Blog section with tags and pagination included. Documentation, blog and other text heavy sections should replicate how the blog section is implemented in this template.</p>\n<p>Blog pages in this template use Snippets for anything that can’t be represented in traditional markdown. Snippets allow you to use HTML components throughout your markdown text.</p>\n<p>A common layout, with changing markdown content is favored for these kinds of text heavy pages, rather than using content blocks — which are defined and managed in your page’s frontmatter. These text heavy pages will be edited in CloudCannon’s Content Editor, rather than the Visual Editor used for building pages out of content blocks. This template demonstrates using the Content Editor inside of the Visual Editor. It is essentially an iframe to the WYSIWYG editor, while providing the visual editing preview to allow your editors to see what the page would look like before saving (with the caveat that your Snippets are not rendered in the content editor).</p>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/paginated-collection:hero_image_alt": {
+      "original": "A man drinking a coffee in a dimly lit cafe in front of a laptop.",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/paginated-collection:page_description": {
+      "original": "A post describing how this starter demonstrates how to paginate collections.",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/paginated-collection:page_title": {
+      "original": "Paginated Collections | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/paginated-collection/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/paginated-collection:thumb_image_alt": {
+      "original": "A team working around a table on laptops in front of a powerpoint presentation.",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/pagination/index.html": 1
+      },
+      "total": 4
+    },
+    "blog/paginated-collection:title": {
+      "original": "Paginated Collections",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/pagination/index.html": 1
+      },
+      "total": 5
+    },
+    "blog/processed-images:hero_image_alt": {
+      "original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant.",
+      "value": null,
+      "pages": {
+        "blog/processed-images/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/processed-images:page_description": {
+      "original": "A blog post describing the image processing present on this starter template.",
+      "value": null,
+      "pages": {
+        "blog/processed-images/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/processed-images:page_title": {
+      "original": "Processed Images | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/processed-images/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/processed-images:thumb_image_alt": {
+      "original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant.",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 15
+    },
+    "blog/processed-images:title": {
+      "original": "Processed Images",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 16
+    },
+    "blog/search:body": {
+      "original": "\n      <p>Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure.</p>\n<p>After indexing, Pagefind adds a static search bundle to your built files, which exposes a JavaScript search API that can be used anywhere on your site. Pagefind also provides a prebuilt UI that can be used with no configuration. (You can see the prebuilt UI at the top of this page.)</p>\n<p>On this template, the search has been scoped to index only the text content of blog posts, to avoid showing results on the homepage, blog index page, header and footer. The search bar is located at the top of the blog index page.</p>\n<p>The goal of Pagefind is that websites with tens of thousands of pages should be searchable by someone in their browser, while consuming as little bandwidth as possible. Pagefind’s search index is split into chunks, so that searching in the browser only ever needs to load a small subset of the search index. Pagefind can run a full-text search on a 10,000 page site with a total network payload under 300kB, including the Pagefind library itself. For most sites, this will be closer to 100kB.</p>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/search:hero_image_alt": {
+      "original": "A woman drinking a cup of coffee in bed in front of her laptop.",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/search:page_description": {
+      "original": "Describes Pagefind search for searching static sites, and how it is set up on this template.",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/search:page_title": {
+      "original": "Pagefind Search | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/search/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/search:thumb_image_alt": {
+      "original": "A group of four people working in front of one laptop in an office environment.",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/search/index.html": 1
+      },
+      "total": 12
+    },
+    "blog/search:title": {
+      "original": "Pagefind Search",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/search/index.html": 1
+      },
+      "total": 13
+    },
+    "blog/seo:body": {
+      "original": "\n      <p>Control SEO values on a page-by-page, and site-wide basis.</p>\n<p>Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback.</p>\n<p>Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/seo:hero_image_alt": {
+      "original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop.",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/seo:page_description": {
+      "original": "A post describing how this template is set up to allow an editor to control SEO related content via CloudCannon.",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/seo:page_title": {
+      "original": "SEO Controls | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/seo/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/seo:thumb_image_alt": {
+      "original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop.",
+      "value": null,
+      "pages": {
+        "blog/editable-regions/index.html": 1,
+        "blog/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 5
+    },
+    "blog/seo:title": {
+      "original": "SEO Controls",
+      "value": null,
+      "pages": {
+        "blog/editable-regions/index.html": 1,
+        "blog/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 6
+    },
+    "blog/tailwind:body": {
+      "original": "\n      <p>Use Tailwind to style your HTML, allowing you to style your components without leaving your HTML. This can be used in combination with normal CSS and SCSS styling, leaving you to add styles to your site however you want. Tailwind can be a bit of a pain to set up in Hugo, so we’ve set it up for you in the hopes that it will save you some time. The placeholder content in this template is styled with traditional CSS, as Tailwind can be a bit polarising.</p>\n<h2 id=\"customizing-tailwind\">Customizing Tailwind</h2>\n<p>This template uses Tailwind v4, which is configured in CSS rather than in a <code>tailwind.config.js</code> file. Add your own theme values, such as colors and fonts, in an <code>@theme</code> block in <code>assets/css/main.css</code>:</p>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-css\" data-lang=\"css\"><span style=\"display:flex;\"><span>@<span style=\"color:#66d9ef\">theme</span> {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--color-brand</span><span style=\"color:#f92672\">:</span> #034ad8<span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--font-display</span><span style=\"color:#f92672\">:</span> <span style=\"color:#e6db74\">\"Poppins\"</span><span style=\"color:#f92672\">,</span> <span style=\"color:#f92672\">sans-serif</span><span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>These become utility classes like <code>bg-brand</code> and <code>font-display</code>. See the <a href=\"https://tailwindcss.com/docs/theme\">Tailwind theme documentation</a> for more options.</p>\n<h2 id=\"removing-tailwind\">Removing Tailwind</h2>\n<p>If you’d rather use traditional CSS to style your site, and would like to remove Tailwind:</p>\n<ol>\n<li>Run <code>npm uninstall tailwindcss @tailwindcss/cli</code>.</li>\n<li>Remove the Tailwind filter from the <code>layouts/partials/css.html</code> file (<code> | css.TailwindCSS $opts</code>).</li>\n<li>Remove the following from your hugo.yaml file:</li>\n</ol>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-yaml\" data-lang=\"yaml\"><span style=\"display:flex;\"><span>  - <span style=\"color:#f92672\">source</span>: <span style=\"color:#ae81ff\">(postcss|tailwind)\\.config\\.js</span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#f92672\">target</span>: <span style=\"color:#ae81ff\">css</span>\n</span></span></code></pre></div><ol start=\"4\">\n<li>Remove <code>@import \"tailwindcss\";</code> and <code>@source \"hugo_stats.json\";</code> from your main.css file.</li>\n</ol>\n\n    ",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/tailwind:hero_image_alt": {
+      "original": "A group of people conversing around a laptop.",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/tailwind:page_description": {
+      "original": "A post describing how to use Tailwind to style your site, and how to uninstall it if you don't want it.",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/tailwind:page_title": {
+      "original": "Tailwind | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/tailwind/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/tailwind:thumb_image_alt": {
+      "original": "A group of people conversing around a laptop.",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 4
+    },
+    "blog/tailwind:title": {
+      "original": "Tailwind",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 5
+    },
+    "blog:page_description": {
+      "original": "Hugo Starter Blog",
+      "value": null,
+      "pages": {
+        "blog/index.html": 2,
+        "blog/page/2/index.html": 2
+      },
+      "total": 4
+    },
+    "blog:page_title": {
+      "original": "Blog | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/index.html": 2,
+        "blog/page/2/index.html": 2
+      },
+      "total": 4
+    },
+    "blog:title": {
+      "original": "Blog",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/page/2/index.html": 1
+      },
+      "total": 2
+    },
+    "categories:page_title": {
+      "original": "Categories | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "categories/index.html": 2
+      },
+      "total": 2
+    },
+    "categories:title": {
+      "original": "Categories",
+      "value": null,
+      "pages": {
+        "categories/index.html": 1
+      },
+      "total": 1
+    },
+    "dates:2025-05-06": {
+      "original": "May 6, 2025",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 3,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 5,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 3,
+        "tags/components/index.html": 2,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 2,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/seo/index.html": 3,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 46
+    },
+    "dates:2025-05-07": {
+      "original": "May 7, 2025",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/search/index.html": 1
+      },
+      "total": 13
+    },
+    "dates:2025-05-08": {
+      "original": "May 8, 2025",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/live-editing/index.html": 1
+      },
+      "total": 15
+    },
+    "dates:2025-06-21": {
+      "original": "June 21, 2025",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 16
+    },
+    "footer:blog": {
+      "original": "Blog",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "footer:cloudcannon": {
+      "original": "CloudCannon",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "footer:copyright_statement": {
+      "original": "MyCompany. All rights reserved.",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "footer:github": {
+      "original": "GitHub",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "index:30ea041e-0636-4344-aeef-342c83f5d721:506d3f9d-6e3f-43a7-a293-e84270a6dc63:button_text": {
+      "original": "GitHub",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:30ea041e-0636-4344-aeef-342c83f5d721:heading": {
+      "original": "\n          You choose your editing experience.\n        ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:30ea041e-0636-4344-aeef-342c83f5d721:image_alt": {
+      "original": "An illustration of someone leaning on one leg while facing us, next to a laptop that comes up their waist. One of their hands is on the back of the laptop, and one is in their pocket. On the laptop screen is an illustration of the world.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:30ea041e-0636-4344-aeef-342c83f5d721:text": {
+      "original": "\n          <p>CloudCannon is a flexible Git-backed CMS that specialises in editing markdown and data files.</p>\n<p>Visual editing allows you to preview your changes live before you save them.</p>\n<p>Git-backed means you can keep all your familiar git workflows, while providing an easy-to-understand interface for non-technical editors to collaborate via Git.</p>\n\n        ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:e9e7c8c7-0028-4993-9f3f-41d4678e0491:button_text": {
+      "original": "GitHub",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:f1197fe2-a6e9-465b-956e-8a3287aace33:button_text": {
+      "original": "CloudCannon",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:heading": {
+      "original": "\n        Hugo Starter\n      ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:image_alt": {
+      "original": "An illustration of someone leaning against the inside of a desktop computer monitor, with one leg dangled off the side. They're holding a piece of paper with a large 'A', and are next to some buttons on the screen.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:subheading": {
+      "original": "\n          <p>A starting point for developers looking to build a website with Hugo, using editable regions in <strong>CloudCannon</strong>. Create your own copy, and start creating your own components to use in CloudCannon’s CMS.</p>\n\n        ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:heading": {
+      "original": "\n          Keep what you need. Delete the rest.\n        ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:image_alt": {
+      "original": "An illustration of someone sitting a desk with a monitor and a pile of books on it. Seen from behind, the figure is turned around to face us and is waving.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:text": {
+      "original": "\n          <p>The Hugo Starter’s aim is to get developers building their own site quickly in CloudCannon. This template is trying to strike a balance between minimalism and easy-to-delete boilerplate, while providing some commonly used features out of the box:</p>\n<ul>\n<li><a href=\"/blog/paginated-collection/\">Blog with pagination &amp; tags</a></li>\n<li><a href=\"/blog/markdown/\">Markdown options &amp; styles</a></li>\n<li><a href=\"/blog/tailwind/\">Tailwind</a></li>\n<li><a href=\"/blog/icons/\">Font Awesome icons</a></li>\n<li><a href=\"/blog/editable-regions/\">Page building in CloudCannon with editable regions</a></li>\n<li><a href=\"/blog/search/\">Built-in search with Pagefind</a></li>\n<li><a href=\"/blog/processed-images/\">Image processing</a></li>\n<li><a href=\"/blog/markdown/#snippets\">Pre-configured shortcodes</a></li>\n<li><a href=\"/blog/data-files/\">Header and Footer controls</a></li>\n<li><a href=\"/blog/page-building/\">Creating and deleting pages</a></li>\n<li><a href=\"/blog/lighthouse-scores/#accessibility\">Accessibility controls</a></li>\n<li><a href=\"/blog/seo/\">SEO controls</a></li>\n<li><a href=\"/blog/data-files/\">Color palette controls</a></li>\n</ul>\n\n        ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "index:page_description": {
+      "original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon.",
+      "value": null,
+      "pages": {
+        "index.html": 2
+      },
+      "total": 2
+    },
+    "index:page_title": {
+      "original": "Hugo Starter",
+      "value": null,
+      "pages": {
+        "index.html": 2
+      },
+      "total": 2
+    },
+    "nav:blog": {
+      "original": "\n            Blog\n          ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "nav:close_menu": {
+      "original": "Close the mobile navigation menu",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "nav:cloudcannon": {
+      "original": "\n            CloudCannon\n          ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "nav:github": {
+      "original": "\n            GitHub\n          ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "nav:menu_links": {
+      "original": "Navigation menu links",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "nav:open_menu": {
+      "original": "Open the mobile navigation menu",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "page_description": {
+      "original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon.",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "categories/index.html": 2,
+        "tags/accessibility/index.html": 2,
+        "tags/building/index.html": 2,
+        "tags/components/index.html": 2,
+        "tags/data/index.html": 2,
+        "tags/editable-regions/index.html": 2,
+        "tags/editing/index.html": 2,
+        "tags/icons/index.html": 2,
+        "tags/images/index.html": 2,
+        "tags/index.html": 2,
+        "tags/inputs/index.html": 2,
+        "tags/live-editing/index.html": 2,
+        "tags/markdown/index.html": 2,
+        "tags/navigation/index.html": 2,
+        "tags/page/2/index.html": 2,
+        "tags/page/3/index.html": 2,
+        "tags/page/4/index.html": 2,
+        "tags/pagination/index.html": 2,
+        "tags/schemas/index.html": 2,
+        "tags/search/index.html": 2,
+        "tags/seo/index.html": 2,
+        "tags/snippets/index.html": 2,
+        "tags/styling/index.html": 2,
+        "tags/tailwind/index.html": 2,
+        "tags/wysiwyg-editing/index.html": 2
+      },
+      "total": 52
+    },
+    "pagination:next_page": {
+      "original": "Next page",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "tags/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1
+      },
+      "total": 4
+    },
+    "pagination:previous_page": {
+      "original": "Previous page",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1
+      },
+      "total": 4
+    },
+    "skip_to_main_content": {
+      "original": "Skip to main content",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "categories/index.html": 1,
+        "index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/search/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/snippets/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 40
+    },
+    "tag-labels:accessibility": {
+      "original": "Accessibility",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "tags/accessibility/index.html": 2,
+        "tags/images/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 7
+    },
+    "tag-labels:building": {
+      "original": "Building",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 2,
+        "blog/paginated-collection/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/building/index.html": 4,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/4/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 21
+    },
+    "tag-labels:components": {
+      "original": "Components",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 2,
+        "blog/editable-regions/index.html": 2,
+        "blog/icons/index.html": 3,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/page-building/index.html": 3,
+        "blog/page/2/index.html": 2,
+        "blog/paginated-collection/index.html": 2,
+        "blog/processed-images/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 5,
+        "tags/editable-regions/index.html": 2,
+        "tags/editing/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/live-editing/index.html": 3,
+        "tags/page/3/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 47
+    },
+    "tag-labels:data": {
+      "original": "Data",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/data/index.html": 2,
+        "tags/icons/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 9
+    },
+    "tag-labels:editable-regions": {
+      "original": "Editable regions",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 2,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 2,
+        "tags/editable-regions/index.html": 3,
+        "tags/editing/index.html": 1,
+        "tags/live-editing/index.html": 2,
+        "tags/page/3/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 26
+    },
+    "tag-labels:editing": {
+      "original": "Editing",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 2,
+        "tags/live-editing/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 11
+    },
+    "tag-labels:icons": {
+      "original": "Icons",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/page/2/index.html": 2,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 3,
+        "tags/inputs/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/styling/index.html": 1
+      },
+      "total": 14
+    },
+    "tag-labels:images": {
+      "original": "Images",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/images/index.html": 3,
+        "tags/live-editing/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/seo/index.html": 2
+      },
+      "total": 23
+    },
+    "tag-labels:inputs": {
+      "original": "Inputs",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/inputs/index.html": 2,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 9
+    },
+    "tag-labels:live-editing": {
+      "original": "Live editing",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 2,
+        "blog/editable-regions/index.html": 2,
+        "blog/icons/index.html": 2,
+        "blog/index.html": 2,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 2,
+        "blog/page-building/index.html": 3,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 2,
+        "blog/processed-images/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 2,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 3,
+        "tags/editable-regions/index.html": 2,
+        "tags/editing/index.html": 1,
+        "tags/images/index.html": 1,
+        "tags/live-editing/index.html": 4,
+        "tags/page/2/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/seo/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 42
+    },
+    "tag-labels:markdown": {
+      "original": "Markdown",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/markdown/index.html": 2,
+        "tags/page/2/index.html": 1,
+        "tags/snippets/index.html": 1
+      },
+      "total": 6
+    },
+    "tag-labels:navigation": {
+      "original": "Navigation",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/page/2/index.html": 2,
+        "blog/paginated-collection/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/navigation/index.html": 3,
+        "tags/page/2/index.html": 1,
+        "tags/pagination/index.html": 1,
+        "tags/seo/index.html": 1
+      },
+      "total": 14
+    },
+    "tag-labels:pagination": {
+      "original": "Pagination",
+      "value": null,
+      "pages": {
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/pagination/index.html": 2
+      },
+      "total": 7
+    },
+    "tag-labels:schemas": {
+      "original": "Schemas",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/schemas/index.html": 2,
+        "tags/wysiwyg-editing/index.html": 1
+      },
+      "total": 11
+    },
+    "tag-labels:search": {
+      "original": "Search",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/index.html": 1,
+        "tags/search/index.html": 2
+      },
+      "total": 15
+    },
+    "tag-labels:seo": {
+      "original": "SEO",
+      "value": null,
+      "pages": {
+        "blog/data-files/index.html": 2,
+        "blog/editable-regions/index.html": 2,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 3,
+        "blog/lighthouse-scores/index.html": 2,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 2,
+        "blog/search/index.html": 2,
+        "blog/seo/index.html": 2,
+        "blog/tailwind/index.html": 1,
+        "tags/accessibility/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/data/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/images/index.html": 2,
+        "tags/index.html": 1,
+        "tags/inputs/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/navigation/index.html": 1,
+        "tags/seo/index.html": 5
+      },
+      "total": 36
+    },
+    "tag-labels:snippets": {
+      "original": "Snippets",
+      "value": null,
+      "pages": {
+        "blog/markdown/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/index.html": 1,
+        "tags/markdown/index.html": 1,
+        "tags/snippets/index.html": 2
+      },
+      "total": 6
+    },
+    "tag-labels:styling": {
+      "original": "Styling",
+      "value": null,
+      "pages": {
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/icons/index.html": 1,
+        "tags/index.html": 1,
+        "tags/styling/index.html": 3,
+        "tags/tailwind/index.html": 1
+      },
+      "total": 12
+    },
+    "tag-labels:tailwind": {
+      "original": "Tailwind",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/tailwind/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/index.html": 1,
+        "tags/styling/index.html": 1,
+        "tags/tailwind/index.html": 2
+      },
+      "total": 7
+    },
+    "tag-labels:wysiwyg-editing": {
+      "original": "WYSIWYG editing",
+      "value": null,
+      "pages": {
+        "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
+        "tags/building/index.html": 1,
+        "tags/components/index.html": 1,
+        "tags/editable-regions/index.html": 1,
+        "tags/editing/index.html": 1,
+        "tags/index.html": 1,
+        "tags/live-editing/index.html": 1,
+        "tags/schemas/index.html": 1,
+        "tags/wysiwyg-editing/index.html": 2
+      },
+      "total": 11
+    },
+    "tags/accessibility:page_title": {
+      "original": "Accessibility | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/accessibility/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/building:page_title": {
+      "original": "Building | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/building/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/components:page_title": {
+      "original": "Components | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/components/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/data:page_title": {
+      "original": "Data | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/data/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/editable-regions:page_title": {
+      "original": "Editable Regions | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/editable-regions/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/editing:page_title": {
+      "original": "Editing | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/editing/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/icons:page_title": {
+      "original": "Icons | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/icons/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/images:page_title": {
+      "original": "Images | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/images/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/inputs:page_title": {
+      "original": "Inputs | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/inputs/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/live-editing:page_title": {
+      "original": "Live Editing | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/live-editing/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/markdown:page_title": {
+      "original": "Markdown | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/markdown/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/navigation:page_title": {
+      "original": "Navigation | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/navigation/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/pagination:page_title": {
+      "original": "Pagination | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/pagination/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/schemas:page_title": {
+      "original": "Schemas | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/schemas/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/search:page_title": {
+      "original": "Search | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/search/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/seo:page_title": {
+      "original": "Seo | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/seo/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/snippets:page_title": {
+      "original": "Snippets | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/snippets/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/styling:page_title": {
+      "original": "Styling | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/styling/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/tailwind:page_title": {
+      "original": "Tailwind | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/tailwind/index.html": 2
+      },
+      "total": 2
+    },
+    "tags/wysiwyg-editing:page_title": {
+      "original": "WYSIWYG Editing | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/wysiwyg-editing/index.html": 2
+      },
+      "total": 2
+    },
+    "tags:page_title": {
+      "original": "Tags | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "tags/index.html": 2,
+        "tags/page/2/index.html": 2,
+        "tags/page/3/index.html": 2,
+        "tags/page/4/index.html": 2
+      },
+      "total": 8
+    },
+    "tags:title": {
+      "original": "Tags",
+      "value": null,
+      "pages": {
+        "tags/index.html": 1,
+        "tags/page/2/index.html": 1,
+        "tags/page/3/index.html": 1,
+        "tags/page/4/index.html": 1
+      },
+      "total": 4
+    }
+  }
+}

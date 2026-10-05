@@ -1,0 +1,21 @@
+.not-found-page {
+  max-width: var(--pageContainer);
+  padding-inline: var(--pagePadding);
+  padding-block: 96px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+/* Standalone link, no surrounding prose to be confused with, so no underline
+   at rest. Restored on hover and keyboard focus below. */
+.not-found-page a {
+  color: blue;
+  text-decoration: none;
+}
+
+.not-found-page a:hover,
+.not-found-page a:focus-visible {
+  text-decoration: underline;
+}

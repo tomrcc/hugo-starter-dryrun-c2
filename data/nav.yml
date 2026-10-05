@@ -1,0 +1,45 @@
+header:
+  logo: /images/logos/hugo-starter-logo.svg
+  logo_alt_text: Hugo Starter
+  logo_url: '/'
+  background_color: 'transparent'
+  text_color: '#333232'
+  text_hover_color: '#034AD8'
+  links:
+    - text: Blog
+      link: /blog/
+    - text: GitHub
+      link: https://github.com/CloudCannon/hugo-starter/
+    - text: CloudCannon
+      link: "https://cloudcannon.com/"
+footer:
+  logo: /images/logos/hugo-starter-logo-reversed.svg
+  logo_url: '/'
+  logo_alt_text: Hugo Starter
+  background_color: '#333232'
+  text_color: '#ffffff'
+  social:
+    - icon: fab fa-facebook
+      link: https://www.facebook.com/
+      name: Facebook
+    - icon: fab fa-instagram
+      link: https://www.instagram.com/
+      name: Instagram
+    - icon: fab fa-linkedin
+      link: https://www.linkedin.com/
+      name: LinkedIn
+    - icon: fab fa-github
+      link: https://github.com/
+      name: GitHub
+    - icon: fab fa-youtube
+      name: YouTube
+      link: https://www.youtube.com/
+  links:
+    - text: Blog
+      link: /blog/
+    - link: https://github.com/CloudCannon/hugo-starter/
+      text: GitHub
+    - link: "https://cloudcannon.com/"
+      text: CloudCannon
+  copyright_start_date: 2025
+  copyright_statement: MyCompany. All rights reserved.

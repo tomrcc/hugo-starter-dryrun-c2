@@ -1,0 +1,57 @@
+{{/*
+  Site header. Nav links come from data/nav.yml, so selectors are @data
+  references and edits land in that file, not the current page. `nav` must be
+  listed in data_config in cloudcannon.config.yml for @data[nav] to resolve.
+*/}}
+{{ with hugo.Data.nav }}
+<header
+  data-rosey-ns="nav"
+  class="header"
+  x-data="{ open: false }"
+  x-transition>
+  <style>
+    .header__nav-links { background-color: #fff; color: #333232; }
+  </style>
+
+  {{ partial "header-styles" (dict "nav" . "Params" $.Params) }}
+
+  <div class="header__container">
+    <nav class="header__nav">
+
+      {{ partial "header-logo" (dict "nav" . "Params" $.Params) }}
+
+      <button class="hamburger" @click="open = ! open">
+        <i x-show="!open" aria-label="Open the mobile navigation menu" data-rosey-attrs-explicit='{"aria-label":"open_menu"}' class="fas fa-bars hamburger-open"></i>
+        <i x-show="open" aria-label="Close the mobile navigation menu" data-rosey-attrs-explicit='{"aria-label":"close_menu"}' class="fas fa-close" style="color: #333232;"></i>
+      </button>
+      {{/* Every direct child of an array region is an item, so this <ul>
+           holds nothing but the loop output and the <template>, which is the
+           blueprint for new links. */}}
+      <ul class="header__nav-links" x-show="open" aria-label="Navigation menu links" data-rosey-attrs-explicit='{"aria-label":"menu_links"}' x-transition @click.outside="open = false"
+        data-editable="array"
+        data-prop="@data[nav].header.links">
+        <template>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/" data-editable="text" data-prop="text" data-type="span"></a>
+          </li>
+        </template>
+        {{ range .header.links }}
+        {{/* Child selectors are relative to the item: "text" resolves to
+             @data[nav].header.links[n].text. */}}
+        <li class="header__nav-item" data-editable="array-item">
+          {{/* Content-as-key: one translation per distinct link text. */}}
+          <a class="header__nav-link" href="{{ .link }}"
+            data-rosey="{{ .text | urlize }}"
+            data-editable="text"
+            data-prop="text"
+            data-type="span">
+            {{ .text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ partial "locale-picker.html" $ }}
+    </nav>
+  </div>
+</header>
+{{ end }}

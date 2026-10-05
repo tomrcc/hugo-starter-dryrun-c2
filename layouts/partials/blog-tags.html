@@ -1,0 +1,8 @@
+{{- /*
+  Blog post tag links. Takes the tags array, so it can back a component
+  region bound to data-prop="tags" and re-render live when tags change in the
+  sidebar. Whitespace is trimmed so an empty list leaves the wrapper :empty.
+*/ -}}
+{{- range . -}}
+  {{- partial "tag-link.html" . -}}
+{{- end -}}

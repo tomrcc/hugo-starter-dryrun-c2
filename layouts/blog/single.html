@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<section data-pagefind-body>
+  <article class="blog-post">
+    
+    {{ partial "blog-hero" . }}
+
+    {{/* @content is the reserved selector for the file's markdown body. */}}
+    {{/* The body is one Rosey key, except where it holds escaped markup:
+         Rosey 2.3.10 decodes &lt; on injection, so code samples would break
+         on every locale page. Those bodies stay in English for now. */}}
+    <div{{ if not (strings.Contains .Content "&lt;") }} data-rosey="body"{{ end }} data-editable="text" data-prop="@content" data-type="block" class="markdown-text">
+      {{ .Content }}
+    </div>
+  </article>
+  
+</section>
+
+<section class="blog-related" data-rosey-root="blog-related">
+  {{/* Hard-coded copy, so a source region writes back to this template. */}}
+  <h2
+    class="blog-related-title"
+    data-editable="source"
+    data-path="layouts/blog/single.html"
+    data-key="recent-posts-heading"
+    data-rosey="heading">Recent Posts</h2>
+  {{/* Derived list, deliberately not an array region: @collections[blog]
+       would let editors delete blog posts from a post page. */}}
+  <div class="blog-related-posts">
+    {{ with (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title ) }}
+      {{ $sorted_dates := . }}
+      {{ $sorted_dates = $sorted_dates.ByParam "post_hero.date" }}
+      {{ range $sorted_dates.Reverse | first 3 }}
+        <div data-rosey-root="{{ strings.TrimPrefix "/" .Path }}">
+          <a href="{{ .RelPermalink }}">
+            {{ partial "processed-image" (dict
+              "image_path" .Params.thumb_image_path
+              "image_alt" .Params.thumb_image_alt
+              "rosey_alt" "thumb_image_alt"
+              "image_width" "700"
+              "image_format" "webp"
+              "class" "blog-related-post-thumb"
+              "loading" "lazy"
+            ) }}
+          </a>
+          <div class="blog-related-post-content">
+            <a class="blog-related-post-title" href="{{ .RelPermalink }}" data-rosey="title">{{ .Params.title }}</a>
+            {{ with .Params.post_hero.date }}
+              <p>{{ partial "blog-date.html" . }}</p>
+            {{ end }}
+            {{ with .Params.tags }}
+              <div class="blog-post-tags" data-rosey-root="tag-labels">
+                {{ range . }}{{ partial "tag-link.html" . }}{{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

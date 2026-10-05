@@ -1,0 +1,732 @@
+{
+  "404:heading": {
+    "original": "Could not find the page you were looking for.",
+    "value": "Impossible de trouver la page que vous cherchiez.",
+    "_base_original": "Could not find the page you were looking for."
+  },
+  "404:homepage_link": {
+    "original": "Homepage",
+    "value": "Page d’accueil",
+    "_base_original": "Homepage"
+  },
+  "404:page_title": {
+    "original": "404 Page not found | Hugo Starter by CloudCannon",
+    "value": "404 Page introuvable | Hugo Starter by CloudCannon",
+    "_base_original": "404 Page not found | Hugo Starter by CloudCannon"
+  },
+  "blog-related:heading": {
+    "original": "Recent Posts",
+    "value": "Articles récents",
+    "_base_original": "Recent Posts"
+  },
+  "blog:page_description": {
+    "original": "Hugo Starter Blog",
+    "value": "Blog du Hugo Starter",
+    "_base_original": "Hugo Starter Blog"
+  },
+  "blog:page_title": {
+    "original": "Blog | Hugo Starter by CloudCannon",
+    "value": "Blog | Hugo Starter by CloudCannon",
+    "_base_original": "Blog | Hugo Starter by CloudCannon"
+  },
+  "blog:title": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/data-files:body": {
+    "original": "<p>This template uses data files to:</p>\n<ul>\n<li>Populate select &amp; multiselect inputs in CloudCannon.\n<ul>\n<li>Colors</li>\n<li>Icons</li>\n<li>Tags</li>\n</ul>\n</li>\n<li>Set sitewide values such as the overall site SEO settings.\n<ul>\n<li>Site title</li>\n<li>Description</li>\n<li>OG image</li>\n<li>Page type</li>\n</ul>\n</li>\n<li>Control header and footer data to allow editors to control navigation.\n<ul>\n<li>Logo</li>\n<li>Colors</li>\n<li>Page links</li>\n<li>Social links</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>",
+    "value": "<p>Ce modèle utilise des fichiers de données pour :</p>\n<ul>\n<li>Alimenter les champs de sélection simple et multiple dans CloudCannon.\n<ul>\n<li>Couleurs</li>\n<li>Icônes</li>\n<li>Étiquettes</li>\n</ul>\n</li>\n<li>Définir des valeurs globales au site, comme les réglages SEO généraux.\n<ul>\n<li>Titre du site</li>\n<li>Description</li>\n<li>Image OG</li>\n<li>Type de page</li>\n</ul>\n</li>\n<li>Gérer les données de l’en-tête et du pied de page pour que les rédacteurs puissent contrôler la navigation.\n<ul>\n<li>Logo</li>\n<li>Couleurs</li>\n<li>Liens des pages</li>\n<li>Liens vers les réseaux sociaux</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>",
+    "_base_original": "<p>This template uses data files to:</p>\n<ul>\n<li>Populate select &amp; multiselect inputs in CloudCannon.\n<ul>\n<li>Colors</li>\n<li>Icons</li>\n<li>Tags</li>\n</ul>\n</li>\n<li>Set sitewide values such as the overall site SEO settings.\n<ul>\n<li>Site title</li>\n<li>Description</li>\n<li>OG image</li>\n<li>Page type</li>\n</ul>\n</li>\n<li>Control header and footer data to allow editors to control navigation.\n<ul>\n<li>Logo</li>\n<li>Colors</li>\n<li>Page links</li>\n<li>Social links</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>"
+  },
+  "blog/data-files:hero_image_alt": {
+    "original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer.",
+    "value": "Une personne écrit une liste de tâches dans un carnet. À côté d’elle, sur la table, un café et une petite plante. Vu depuis le point de vue de la personne qui écrit.",
+    "_base_original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer."
+  },
+  "blog/data-files:page_description": {
+    "original": "A post describing the role of data files in a Hugo site using CloudCannon as a CMS.",
+    "value": "Un article décrivant le rôle des fichiers de données dans un site Hugo qui utilise CloudCannon comme CMS.",
+    "_base_original": "A post describing the role of data files in a Hugo site using CloudCannon as a CMS."
+  },
+  "blog/data-files:page_title": {
+    "original": "Data files | Hugo Starter by CloudCannon",
+    "value": "Fichiers de données | Hugo Starter by CloudCannon",
+    "_base_original": "Data files | Hugo Starter by CloudCannon"
+  },
+  "blog/data-files:thumb_image_alt": {
+    "original": "A group collaborating around a laptop.",
+    "value": "Un groupe qui collabore autour d’un ordinateur portable.",
+    "_base_original": "A group collaborating around a laptop."
+  },
+  "blog/data-files:title": {
+    "original": "Data files",
+    "value": "Fichiers de données",
+    "_base_original": "Data files"
+  },
+  "blog/editable-regions:hero_image_alt": {
+    "original": "A child working at a computer, seen from behind.",
+    "value": "Un enfant qui travaille sur un ordinateur, vu de dos.",
+    "_base_original": "A child working at a computer, seen from behind."
+  },
+  "blog/editable-regions:page_description": {
+    "original": "A post describing how editable regions make a Hugo site editable in place in CloudCannon's Visual Editor.",
+    "value": "Un article décrivant comment les zones modifiables rendent un site Hugo éditable directement dans l’éditeur visuel de CloudCannon.",
+    "_base_original": "A post describing how editable regions make a Hugo site editable in place in CloudCannon's Visual Editor."
+  },
+  "blog/editable-regions:page_title": {
+    "original": "Editable Regions | Hugo Starter by CloudCannon",
+    "value": "Zones modifiables | Hugo Starter by CloudCannon",
+    "_base_original": "Editable Regions | Hugo Starter by CloudCannon"
+  },
+  "blog/editable-regions:thumb_image_alt": {
+    "original": "A birds eye view of a group of people working on laptops around a table.",
+    "value": "Vue aérienne d’un groupe de personnes travaillant sur des ordinateurs portables autour d’une table.",
+    "_base_original": "A birds eye view of a group of people working on laptops around a table."
+  },
+  "blog/editable-regions:title": {
+    "original": "Editable Regions",
+    "value": "Zones modifiables",
+    "_base_original": "Editable Regions"
+  },
+  "blog/icons:hero_image_alt": {
+    "original": "A man in front of a laptop with a coffee in a dimly lit cafe.",
+    "value": "Un homme devant un ordinateur portable, avec un café, dans un café faiblement éclairé.",
+    "_base_original": "A man in front of a laptop with a coffee in a dimly lit cafe."
+  },
+  "blog/icons:page_description": {
+    "original": "A post describing how to use FontAwesome Icons throughout your site.",
+    "value": "Un article expliquant comment utiliser les icônes Font Awesome dans tout votre site.",
+    "_base_original": "A post describing how to use FontAwesome Icons throughout your site."
+  },
+  "blog/icons:page_title": {
+    "original": "Font Awesome Icons | Hugo Starter by CloudCannon",
+    "value": "Icônes Font Awesome | Hugo Starter by CloudCannon",
+    "_base_original": "Font Awesome Icons | Hugo Starter by CloudCannon"
+  },
+  "blog/icons:thumb_image_alt": {
+    "original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer.",
+    "value": "Une personne écrit une liste de tâches dans un carnet. À côté d’elle, sur la table, un café et une petite plante. Vu depuis le point de vue de la personne qui écrit.",
+    "_base_original": "Someone writing a todo list in a notebook. Next to them on the table is a coffee and a small plant. Seen from the POV of the writer."
+  },
+  "blog/icons:title": {
+    "original": "Font Awesome Icons",
+    "value": "Icônes Font Awesome",
+    "_base_original": "Font Awesome Icons"
+  },
+  "blog/lighthouse-scores:body": {
+    "original": "<p>Green Lighthouse scores out of the box.</p>\n<h2 id=\"accessibility\">Accessibility</h2>\n<p>Made with accessibility in mind.</p>\n<ul>\n<li>Semantic html</li>\n<li>Skip to content button</li>\n<li>Descriptive aria-labels</li>\n<li>Descriptive image alt text</li>\n<li>Focusable html</li>\n</ul>\n<h2 id=\"performance\">Performance</h2>\n<p>An emphasis on low page bundle sizes, fast loading times, and short build times (which is probably the whole reason you’re using Hugo in the first place).</p>\n<h2 id=\"best-practices\">Best practices</h2>\n<p>Passes all the Lighthouse recommended best practices.</p>\n<h2 id=\"seo\">SEO</h2>\n<p>Control SEO values on a page-by-page, and site-wide basis. Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback. Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>",
+    "value": "<p>Des scores Lighthouse au vert, sans configuration.</p>\n<h2 id=\"accessibility\">Accessibilité</h2>\n<p>Conçu en pensant à l’accessibilité.</p>\n<ul>\n<li>HTML sémantique</li>\n<li>Bouton pour aller directement au contenu</li>\n<li>Attributs aria-label descriptifs</li>\n<li>Textes alternatifs d’image descriptifs</li>\n<li>HTML navigable au clavier</li>\n</ul>\n<h2 id=\"performance\">Performance</h2>\n<p>L’accent est mis sur des pages légères, des temps de chargement rapides et des builds courts (ce qui est sans doute la raison même pour laquelle vous utilisez Hugo).</p>\n<h2 id=\"best-practices\">Bonnes pratiques</h2>\n<p>Respecte toutes les bonnes pratiques recommandées par Lighthouse.</p>\n<h2 id=\"seo\">SEO</h2>\n<p>Gérez les valeurs SEO page par page et à l’échelle du site. Les champs de chaque page fournissent ses valeurs SEO ; s’ils ne sont pas renseignés, les valeurs globales du site sont utilisées à la place. Tous les champs nécessaires sont fournis pour inciter les rédacteurs à saisir le contenu qu’attendent les moteurs de recherche pour un bon référencement. La performance, les bonnes pratiques et l’accessibilité y contribuent également.</p>",
+    "_base_original": "<p>Green Lighthouse scores out of the box.</p>\n<h2 id=\"accessibility\">Accessibility</h2>\n<p>Made with accessibility in mind.</p>\n<ul>\n<li>Semantic html</li>\n<li>Skip to content button</li>\n<li>Descriptive aria-labels</li>\n<li>Descriptive image alt text</li>\n<li>Focusable html</li>\n</ul>\n<h2 id=\"performance\">Performance</h2>\n<p>An emphasis on low page bundle sizes, fast loading times, and short build times (which is probably the whole reason you’re using Hugo in the first place).</p>\n<h2 id=\"best-practices\">Best practices</h2>\n<p>Passes all the Lighthouse recommended best practices.</p>\n<h2 id=\"seo\">SEO</h2>\n<p>Control SEO values on a page-by-page, and site-wide basis. Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback. Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>"
+  },
+  "blog/lighthouse-scores:hero_image_alt": {
+    "original": "A woman on her phone in front of a laptop.",
+    "value": "Une femme sur son téléphone devant un ordinateur portable.",
+    "_base_original": "A woman on her phone in front of a laptop."
+  },
+  "blog/lighthouse-scores:page_description": {
+    "original": "A post describing what features come with the Hugo starter to ensure it has green lighthouse scores for accessibility, performance and SEO.",
+    "value": "Un article décrivant les fonctionnalités du Hugo Starter qui lui assurent des scores Lighthouse au vert en accessibilité, performance et SEO.",
+    "_base_original": "A post describing what features come with the Hugo starter to ensure it has green lighthouse scores for accessibility, performance and SEO."
+  },
+  "blog/lighthouse-scores:page_title": {
+    "original": "Green Lighthouse Scores | Hugo Starter by CloudCannon",
+    "value": "Scores Lighthouse au vert | Hugo Starter by CloudCannon",
+    "_base_original": "Green Lighthouse Scores | Hugo Starter by CloudCannon"
+  },
+  "blog/lighthouse-scores:thumb_image_alt": {
+    "original": "A top-down shot of people working at a table.",
+    "value": "Vue de dessus de personnes travaillant à une table.",
+    "_base_original": "A top-down shot of people working at a table."
+  },
+  "blog/lighthouse-scores:title": {
+    "original": "Green Lighthouse Scores",
+    "value": "Scores Lighthouse au vert",
+    "_base_original": "Green Lighthouse Scores"
+  },
+  "blog/markdown:body": {
+    "original": "<h2 id=\"styling\">Styling</h2>\n<p>The markdown toolbar has most of the options allowed enabled in the rich text editor, along with the necessary styling required by those elements. See the CloudCannon <a href=\"https://cloudcannon.com/documentation/articles/configure-your-rich-text-editors/\">Docs</a> for more information about configuring the markdown that editors can add to pages.</p>\n<h2 id=\"snippets\">Snippets</h2>\n<p>A Snippet is a predefined component that complements your Markdown content. Snippets are great for building an interactive page editing experience without touching the underlying code.</p>\n<p>The name “Snippet” comes from “a snippet of source code” in your rich text content. However, Snippets in CloudCannon are not limited to just code. Snippets can accomplish many jobs. One might be a wrapper to contain shortcodes or templating language, while another might be a markup heading.</p>\n<p>Snippets excel at providing a way to:</p>\n<ul>\n<li>Represent and create any HTML or Markdown structures in your rich text editor that you cannot add using the WYSIWYG toolbar.</li>\n<li>Edit the value of any HTML parameters in a component using a GUI (rather than directly interfacing with the code).</li>\n</ul>",
+    "value": "<h2 id=\"styling\">Mise en forme</h2>\n<p>La barre d’outils Markdown active la plupart des options disponibles dans l’éditeur de texte enrichi, ainsi que les styles nécessaires à ces éléments. Consultez la <a href=\"https://cloudcannon.com/documentation/articles/configure-your-rich-text-editors/\">documentation</a> de CloudCannon pour savoir comment configurer le Markdown que les rédacteurs peuvent ajouter aux pages.</p>\n<h2 id=\"snippets\">Snippets</h2>\n<p>Un Snippet est un composant prédéfini qui complète votre contenu Markdown. Les Snippets sont parfaits pour offrir une expérience d’édition de page interactive sans toucher au code sous-jacent.</p>\n<p>Le nom « Snippet » vient de « a snippet of source code » (un extrait de code source) dans votre contenu en texte enrichi. Pourtant, dans CloudCannon, les Snippets ne se limitent pas au code. Ils peuvent remplir de nombreux rôles : l’un peut envelopper des shortcodes ou un langage de gabarit, un autre peut être un titre balisé.</p>\n<p>Les Snippets excellent pour :</p>\n<ul>\n<li>Représenter et créer, dans votre éditeur de texte enrichi, toute structure HTML ou Markdown que la barre d’outils WYSIWYG ne permet pas d’ajouter.</li>\n<li>Modifier la valeur de n’importe quel paramètre HTML d’un composant via une interface graphique (plutôt qu’en intervenant directement dans le code).</li>\n</ul>",
+    "_base_original": "<h2 id=\"styling\">Styling</h2>\n<p>The markdown toolbar has most of the options allowed enabled in the rich text editor, along with the necessary styling required by those elements. See the CloudCannon <a href=\"https://cloudcannon.com/documentation/articles/configure-your-rich-text-editors/\">Docs</a> for more information about configuring the markdown that editors can add to pages.</p>\n<h2 id=\"snippets\">Snippets</h2>\n<p>A Snippet is a predefined component that complements your Markdown content. Snippets are great for building an interactive page editing experience without touching the underlying code.</p>\n<p>The name “Snippet” comes from “a snippet of source code” in your rich text content. However, Snippets in CloudCannon are not limited to just code. Snippets can accomplish many jobs. One might be a wrapper to contain shortcodes or templating language, while another might be a markup heading.</p>\n<p>Snippets excel at providing a way to:</p>\n<ul>\n<li>Represent and create any HTML or Markdown structures in your rich text editor that you cannot add using the WYSIWYG toolbar.</li>\n<li>Edit the value of any HTML parameters in a component using a GUI (rather than directly interfacing with the code).</li>\n</ul>"
+  },
+  "blog/markdown:hero_image_alt": {
+    "original": "Children gathered around a laptop, in a busy classroom.",
+    "value": "Des enfants rassemblés autour d’un ordinateur portable, dans une salle de classe animée.",
+    "_base_original": "Children gathered around a laptop, in a busy classroom."
+  },
+  "blog/markdown:page_description": {
+    "original": "A post describing what Markdown editing features come with the Hugo starter in CloudCannon.",
+    "value": "Un article décrivant les fonctionnalités d’édition Markdown du Hugo Starter dans CloudCannon.",
+    "_base_original": "A post describing what Markdown editing features come with the Hugo starter in CloudCannon."
+  },
+  "blog/markdown:page_title": {
+    "original": "Markdown Editing and Snippets | Hugo Starter by CloudCannon",
+    "value": "Édition Markdown et Snippets | Hugo Starter by CloudCannon",
+    "_base_original": "Markdown Editing and Snippets | Hugo Starter by CloudCannon"
+  },
+  "blog/markdown:thumb_image_alt": {
+    "original": "Two people working either side of a table, with a distant view of a city in the background.",
+    "value": "Deux personnes travaillant de part et d’autre d’une table, avec une ville au loin en arrière-plan.",
+    "_base_original": "Two people working either side of a table, with a distant view of a city in the background."
+  },
+  "blog/markdown:title": {
+    "original": "Markdown Editing and Snippets",
+    "value": "Édition Markdown et Snippets",
+    "_base_original": "Markdown Editing and Snippets"
+  },
+  "blog/page-building:body": {
+    "original": "<h2 id=\"schemas\">Schemas</h2>\n<p>A schema is a predefined template that determines what should populate a collection file. You can configure several schemas for each collection, creating a list of file templates for you and your team.</p>\n<p>Schemas are used for creating files with consistent content and populating the initial contents of a new file. Schemas can apply to structured, markup, and combination files by containing both front matter and markup content or only data or markup content. When you use a schema to populate a new file, you can be sure that the inputs you need are available in the sidebar of the Visual or Content Editor.</p>\n<p>A blog schema might contain title, author, and hero image inputs in the front matter. A changelog schema for a technical documentation site might contain a date input in the front matter and headings for “Features” and “Fixes” in the Markdown content. A review schema might contain inputs for title, author, and rating, and “Today, we are reviewing the…” as the opening line in the Markdown content.</p>\n<h2 id=\"editable-regions\">Editable regions</h2>\n<p>Build custom components that non-technical editors can use in a page building experience in CloudCannon. <a href=\"/blog/editable-regions/\">Editable regions</a> enable live editing in CloudCannon’s Visual Editor.</p>\n<p>Editors can reuse existing components with new content to build new pages in the CMS.</p>\n<h2 id=\"content-editor\">Content Editor</h2>\n<p>Edit a page’s body content in CloudCannon’s WYSIWYG Content Editor if a page’s changeable content is mainly markdown body content, which shares a common layout. This is great for sections like the blog you are reading this in.</p>",
+    "value": "<h2 id=\"schemas\">Schémas</h2>\n<p>Un schéma est un modèle prédéfini qui détermine le contenu initial d’un fichier de collection. Vous pouvez configurer plusieurs schémas par collection, et ainsi créer une liste de modèles de fichiers pour vous et votre équipe.</p>\n<p>Les schémas servent à créer des fichiers au contenu cohérent et à remplir le contenu initial d’un nouveau fichier. Ils s’appliquent aux fichiers structurés, aux fichiers de balisage et aux fichiers mixtes, en contenant à la fois du front matter et du contenu balisé, ou seulement des données ou du contenu balisé. Lorsque vous utilisez un schéma pour créer un fichier, vous avez la garantie que les champs dont vous avez besoin sont disponibles dans la barre latérale de l’éditeur visuel ou de l’éditeur de contenu.</p>\n<p>Un schéma de blog peut contenir des champs titre, auteur et image principale dans le front matter. Un schéma de journal des modifications, pour un site de documentation technique, peut contenir un champ date dans le front matter et des titres « Fonctionnalités » et « Corrections » dans le contenu Markdown. Un schéma de critique peut contenir des champs titre, auteur et note, et « Aujourd’hui, nous testons… » comme première ligne du contenu Markdown.</p>\n<h2 id=\"editable-regions\">Zones modifiables</h2>\n<p>Créez des composants personnalisés que des rédacteurs non techniques peuvent utiliser pour construire des pages dans CloudCannon. Les <a href=\"/blog/editable-regions/\">zones modifiables</a> permettent l’édition en direct dans l’éditeur visuel de CloudCannon.</p>\n<p>Les rédacteurs peuvent réutiliser des composants existants avec un nouveau contenu pour créer de nouvelles pages dans le CMS.</p>\n<h2 id=\"content-editor\">Éditeur de contenu</h2>\n<p>Modifiez le contenu principal d’une page dans l’éditeur de contenu WYSIWYG de CloudCannon lorsque le contenu modifiable de cette page est surtout du Markdown partageant une mise en page commune. C’est idéal pour des sections comme le blog que vous êtes en train de lire.</p>",
+    "_base_original": "<h2 id=\"schemas\">Schemas</h2>\n<p>A schema is a predefined template that determines what should populate a collection file. You can configure several schemas for each collection, creating a list of file templates for you and your team.</p>\n<p>Schemas are used for creating files with consistent content and populating the initial contents of a new file. Schemas can apply to structured, markup, and combination files by containing both front matter and markup content or only data or markup content. When you use a schema to populate a new file, you can be sure that the inputs you need are available in the sidebar of the Visual or Content Editor.</p>\n<p>A blog schema might contain title, author, and hero image inputs in the front matter. A changelog schema for a technical documentation site might contain a date input in the front matter and headings for “Features” and “Fixes” in the Markdown content. A review schema might contain inputs for title, author, and rating, and “Today, we are reviewing the…” as the opening line in the Markdown content.</p>\n<h2 id=\"editable-regions\">Editable regions</h2>\n<p>Build custom components that non-technical editors can use in a page building experience in CloudCannon. <a href=\"/blog/editable-regions/\">Editable regions</a> enable live editing in CloudCannon’s Visual Editor.</p>\n<p>Editors can reuse existing components with new content to build new pages in the CMS.</p>\n<h2 id=\"content-editor\">Content Editor</h2>\n<p>Edit a page’s body content in CloudCannon’s WYSIWYG Content Editor if a page’s changeable content is mainly markdown body content, which shares a common layout. This is great for sections like the blog you are reading this in.</p>"
+  },
+  "blog/page-building:hero_image_alt": {
+    "original": "A group collaborating around a table.",
+    "value": "Un groupe qui collabore autour d’une table.",
+    "_base_original": "A group collaborating around a table."
+  },
+  "blog/page-building:page_description": {
+    "original": "A post describing what page building features come with the Hugo starter.",
+    "value": "Un article décrivant les fonctionnalités de construction de pages du Hugo Starter.",
+    "_base_original": "A post describing what page building features come with the Hugo starter."
+  },
+  "blog/page-building:page_title": {
+    "original": "Page Building | Hugo Starter by CloudCannon",
+    "value": "Construction de pages | Hugo Starter by CloudCannon",
+    "_base_original": "Page Building | Hugo Starter by CloudCannon"
+  },
+  "blog/page-building:thumb_image_alt": {
+    "original": "A group collaborating around a table.",
+    "value": "Un groupe qui collabore autour d’une table.",
+    "_base_original": "A group collaborating around a table."
+  },
+  "blog/page-building:title": {
+    "original": "Page Building",
+    "value": "Construction de pages",
+    "_base_original": "Page Building"
+  },
+  "blog/paginated-collection:body": {
+    "original": "<p>Blog section with tags and pagination included. Documentation, blog and other text heavy sections should replicate how the blog section is implemented in this template.</p>\n<p>Blog pages in this template use Snippets for anything that can’t be represented in traditional markdown. Snippets allow you to use HTML components throughout your markdown text.</p>\n<p>A common layout, with changing markdown content is favored for these kinds of text heavy pages, rather than using content blocks — which are defined and managed in your page’s frontmatter. These text heavy pages will be edited in CloudCannon’s Content Editor, rather than the Visual Editor used for building pages out of content blocks. This template demonstrates using the Content Editor inside of the Visual Editor. It is essentially an iframe to the WYSIWYG editor, while providing the visual editing preview to allow your editors to see what the page would look like before saving (with the caveat that your Snippets are not rendered in the content editor).</p>",
+    "value": "<p>Une section blog avec étiquettes et pagination. La documentation, le blog et les autres sections riches en texte devraient reprendre la façon dont la section blog est mise en œuvre dans ce modèle.</p>\n<p>Dans ce modèle, les pages du blog utilisent des Snippets pour tout ce qui ne peut pas être représenté en Markdown classique. Les Snippets permettent d’utiliser des composants HTML dans tout votre texte Markdown.</p>\n<p>Pour ces pages riches en texte, on privilégie une mise en page commune avec un contenu Markdown variable, plutôt que des blocs de contenu — qui sont définis et gérés dans le front matter de la page. Ces pages se modifient dans l’éditeur de contenu de CloudCannon, plutôt que dans l’éditeur visuel utilisé pour construire des pages à partir de blocs de contenu. Ce modèle montre l’utilisation de l’éditeur de contenu à l’intérieur de l’éditeur visuel. Il s’agit essentiellement d’une iframe vers l’éditeur WYSIWYG, qui conserve l’aperçu visuel pour que vos rédacteurs voient à quoi ressemblera la page avant d’enregistrer (à ceci près que vos Snippets ne sont pas rendus dans l’éditeur de contenu).</p>",
+    "_base_original": "<p>Blog section with tags and pagination included. Documentation, blog and other text heavy sections should replicate how the blog section is implemented in this template.</p>\n<p>Blog pages in this template use Snippets for anything that can’t be represented in traditional markdown. Snippets allow you to use HTML components throughout your markdown text.</p>\n<p>A common layout, with changing markdown content is favored for these kinds of text heavy pages, rather than using content blocks — which are defined and managed in your page’s frontmatter. These text heavy pages will be edited in CloudCannon’s Content Editor, rather than the Visual Editor used for building pages out of content blocks. This template demonstrates using the Content Editor inside of the Visual Editor. It is essentially an iframe to the WYSIWYG editor, while providing the visual editing preview to allow your editors to see what the page would look like before saving (with the caveat that your Snippets are not rendered in the content editor).</p>"
+  },
+  "blog/paginated-collection:hero_image_alt": {
+    "original": "A man drinking a coffee in a dimly lit cafe in front of a laptop.",
+    "value": "Un homme buvant un café devant un ordinateur portable, dans un café faiblement éclairé.",
+    "_base_original": "A man drinking a coffee in a dimly lit cafe in front of a laptop."
+  },
+  "blog/paginated-collection:page_description": {
+    "original": "A post describing how this starter demonstrates how to paginate collections.",
+    "value": "Un article expliquant comment ce starter montre la pagination des collections.",
+    "_base_original": "A post describing how this starter demonstrates how to paginate collections."
+  },
+  "blog/paginated-collection:page_title": {
+    "original": "Paginated Collections | Hugo Starter by CloudCannon",
+    "value": "Collections paginées | Hugo Starter by CloudCannon",
+    "_base_original": "Paginated Collections | Hugo Starter by CloudCannon"
+  },
+  "blog/paginated-collection:thumb_image_alt": {
+    "original": "A team working around a table on laptops in front of a powerpoint presentation.",
+    "value": "Une équipe travaillant sur des ordinateurs portables autour d’une table, devant une présentation PowerPoint.",
+    "_base_original": "A team working around a table on laptops in front of a powerpoint presentation."
+  },
+  "blog/paginated-collection:title": {
+    "original": "Paginated Collections",
+    "value": "Collections paginées",
+    "_base_original": "Paginated Collections"
+  },
+  "blog/processed-images:hero_image_alt": {
+    "original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant.",
+    "value": "Une femme assise de travers sur une chaise, travaillant sur un ordinateur portable à un bureau. La seule autre chose sur le bureau est une petite plante en pot.",
+    "_base_original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant."
+  },
+  "blog/processed-images:page_description": {
+    "original": "A blog post describing the image processing present on this starter template.",
+    "value": "Un article de blog décrivant le traitement d’images inclus dans ce modèle de démarrage.",
+    "_base_original": "A blog post describing the image processing present on this starter template."
+  },
+  "blog/processed-images:page_title": {
+    "original": "Processed Images | Hugo Starter by CloudCannon",
+    "value": "Images traitées | Hugo Starter by CloudCannon",
+    "_base_original": "Processed Images | Hugo Starter by CloudCannon"
+  },
+  "blog/processed-images:thumb_image_alt": {
+    "original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant.",
+    "value": "Une femme assise de travers sur une chaise, travaillant sur un ordinateur portable à un bureau. La seule autre chose sur le bureau est une petite plante en pot.",
+    "_base_original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant."
+  },
+  "blog/processed-images:title": {
+    "original": "Processed Images",
+    "value": "Images traitées",
+    "_base_original": "Processed Images"
+  },
+  "blog/search:body": {
+    "original": "<p>Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure.</p>\n<p>After indexing, Pagefind adds a static search bundle to your built files, which exposes a JavaScript search API that can be used anywhere on your site. Pagefind also provides a prebuilt UI that can be used with no configuration. (You can see the prebuilt UI at the top of this page.)</p>\n<p>On this template, the search has been scoped to index only the text content of blog posts, to avoid showing results on the homepage, blog index page, header and footer. The search bar is located at the top of the blog index page.</p>\n<p>The goal of Pagefind is that websites with tens of thousands of pages should be searchable by someone in their browser, while consuming as little bandwidth as possible. Pagefind’s search index is split into chunks, so that searching in the browser only ever needs to load a small subset of the search index. Pagefind can run a full-text search on a 10,000 page site with a total network payload under 300kB, including the Pagefind library itself. For most sites, this will be closer to 100kB.</p>",
+    "value": "<p>Pagefind est une bibliothèque de recherche entièrement statique, conçue pour rester performante sur de grands sites tout en consommant le moins possible de bande passante de vos utilisateurs, et sans aucune infrastructure à héberger.</p>\n<p>Après l’indexation, Pagefind ajoute à vos fichiers générés un bundle de recherche statique qui expose une API de recherche JavaScript utilisable partout sur votre site. Pagefind fournit aussi une interface prête à l’emploi, utilisable sans configuration. (Vous pouvez voir cette interface en haut de cette page.)</p>\n<p>Dans ce modèle, la recherche est limitée au texte des articles de blog, pour éviter d’afficher des résultats provenant de la page d’accueil, de la page d’index du blog, de l’en-tête et du pied de page. La barre de recherche se trouve en haut de la page d’index du blog.</p>\n<p>L’objectif de Pagefind est que des sites de plusieurs dizaines de milliers de pages puissent être explorés depuis un navigateur, en consommant le moins de bande passante possible. L’index de recherche de Pagefind est découpé en morceaux, si bien qu’une recherche dans le navigateur n’a besoin de charger qu’une petite partie de l’index. Pagefind peut effectuer une recherche plein texte sur un site de 10 000 pages avec un volume réseau total inférieur à 300 ko, bibliothèque Pagefind comprise. Pour la plupart des sites, ce sera plutôt autour de 100 ko.</p>",
+    "_base_original": "<p>Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure.</p>\n<p>After indexing, Pagefind adds a static search bundle to your built files, which exposes a JavaScript search API that can be used anywhere on your site. Pagefind also provides a prebuilt UI that can be used with no configuration. (You can see the prebuilt UI at the top of this page.)</p>\n<p>On this template, the search has been scoped to index only the text content of blog posts, to avoid showing results on the homepage, blog index page, header and footer. The search bar is located at the top of the blog index page.</p>\n<p>The goal of Pagefind is that websites with tens of thousands of pages should be searchable by someone in their browser, while consuming as little bandwidth as possible. Pagefind’s search index is split into chunks, so that searching in the browser only ever needs to load a small subset of the search index. Pagefind can run a full-text search on a 10,000 page site with a total network payload under 300kB, including the Pagefind library itself. For most sites, this will be closer to 100kB.</p>"
+  },
+  "blog/search:hero_image_alt": {
+    "original": "A woman drinking a cup of coffee in bed in front of her laptop.",
+    "value": "Une femme buvant une tasse de café au lit, devant son ordinateur portable.",
+    "_base_original": "A woman drinking a cup of coffee in bed in front of her laptop."
+  },
+  "blog/search:page_description": {
+    "original": "Describes Pagefind search for searching static sites, and how it is set up on this template.",
+    "value": "Présente la recherche Pagefind pour les sites statiques, et la façon dont elle est configurée dans ce modèle.",
+    "_base_original": "Describes Pagefind search for searching static sites, and how it is set up on this template."
+  },
+  "blog/search:page_title": {
+    "original": "Pagefind Search | Hugo Starter by CloudCannon",
+    "value": "Recherche Pagefind | Hugo Starter by CloudCannon",
+    "_base_original": "Pagefind Search | Hugo Starter by CloudCannon"
+  },
+  "blog/search:thumb_image_alt": {
+    "original": "A group of four people working in front of one laptop in an office environment.",
+    "value": "Un groupe de quatre personnes travaillant devant un même ordinateur portable, dans un bureau.",
+    "_base_original": "A group of four people working in front of one laptop in an office environment."
+  },
+  "blog/search:title": {
+    "original": "Pagefind Search",
+    "value": "Recherche Pagefind",
+    "_base_original": "Pagefind Search"
+  },
+  "blog/seo:body": {
+    "original": "<p>Control SEO values on a page-by-page, and site-wide basis.</p>\n<p>Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback.</p>\n<p>Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>",
+    "value": "<p>Gérez les valeurs SEO page par page et à l’échelle du site.</p>\n<p>Les champs de chaque page fournissent ses valeurs SEO ; s’ils ne sont pas renseignés, les valeurs globales du site sont utilisées à la place.</p>\n<p>Tous les champs nécessaires sont fournis pour inciter les rédacteurs à saisir le contenu qu’attendent les moteurs de recherche pour un bon référencement. La performance, les bonnes pratiques et l’accessibilité y contribuent également.</p>",
+    "_base_original": "<p>Control SEO values on a page-by-page, and site-wide basis.</p>\n<p>Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback.</p>\n<p>Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>"
+  },
+  "blog/seo:hero_image_alt": {
+    "original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop.",
+    "value": "Une personne lisant un livre, assise à un bureau blanc. Sur le bureau se trouvent aussi un carnet, quelques feutres et un ordinateur portable ouvert.",
+    "_base_original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop."
+  },
+  "blog/seo:page_description": {
+    "original": "A post describing how this template is set up to allow an editor to control SEO related content via CloudCannon.",
+    "value": "Un article expliquant comment ce modèle est configuré pour permettre à un rédacteur de gérer le contenu lié au SEO via CloudCannon.",
+    "_base_original": "A post describing how this template is set up to allow an editor to control SEO related content via CloudCannon."
+  },
+  "blog/seo:page_title": {
+    "original": "SEO Controls | Hugo Starter by CloudCannon",
+    "value": "Réglages SEO | Hugo Starter by CloudCannon",
+    "_base_original": "SEO Controls | Hugo Starter by CloudCannon"
+  },
+  "blog/seo:thumb_image_alt": {
+    "original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop.",
+    "value": "Une personne lisant un livre, assise à un bureau blanc. Sur le bureau se trouvent aussi un carnet, quelques feutres et un ordinateur portable ouvert.",
+    "_base_original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop."
+  },
+  "blog/seo:title": {
+    "original": "SEO Controls",
+    "value": "Réglages SEO",
+    "_base_original": "SEO Controls"
+  },
+  "blog/tailwind:body": {
+    "original": "<p>Use Tailwind to style your HTML, allowing you to style your components without leaving your HTML. This can be used in combination with normal CSS and SCSS styling, leaving you to add styles to your site however you want. Tailwind can be a bit of a pain to set up in Hugo, so we’ve set it up for you in the hopes that it will save you some time. The placeholder content in this template is styled with traditional CSS, as Tailwind can be a bit polarising.</p>\n<h2 id=\"customizing-tailwind\">Customizing Tailwind</h2>\n<p>This template uses Tailwind v4, which is configured in CSS rather than in a <code>tailwind.config.js</code> file. Add your own theme values, such as colors and fonts, in an <code>@theme</code> block in <code>assets/css/main.css</code>:</p>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-css\" data-lang=\"css\"><span style=\"display:flex;\"><span>@<span style=\"color:#66d9ef\">theme</span> {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--color-brand</span><span style=\"color:#f92672\">:</span> #034ad8<span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--font-display</span><span style=\"color:#f92672\">:</span> <span style=\"color:#e6db74\">\"Poppins\"</span><span style=\"color:#f92672\">,</span> <span style=\"color:#f92672\">sans-serif</span><span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>These become utility classes like <code>bg-brand</code> and <code>font-display</code>. See the <a href=\"https://tailwindcss.com/docs/theme\">Tailwind theme documentation</a> for more options.</p>\n<h2 id=\"removing-tailwind\">Removing Tailwind</h2>\n<p>If you’d rather use traditional CSS to style your site, and would like to remove Tailwind:</p>\n<ol>\n<li>Run <code>npm uninstall tailwindcss @tailwindcss/cli</code>.</li>\n<li>Remove the Tailwind filter from the <code>layouts/partials/css.html</code> file (<code> | css.TailwindCSS $opts</code>).</li>\n<li>Remove the following from your hugo.yaml file:</li>\n</ol>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-yaml\" data-lang=\"yaml\"><span style=\"display:flex;\"><span>  - <span style=\"color:#f92672\">source</span>: <span style=\"color:#ae81ff\">(postcss|tailwind)\\.config\\.js</span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#f92672\">target</span>: <span style=\"color:#ae81ff\">css</span>\n</span></span></code></pre></div><ol start=\"4\">\n<li>Remove <code>@import \"tailwindcss\";</code> and <code>@source \"hugo_stats.json\";</code> from your main.css file.</li>\n</ol>",
+    "value": "<p>Utilisez Tailwind pour mettre en forme votre HTML : vous stylez vos composants sans quitter votre HTML. Il peut être combiné avec du CSS et du SCSS classiques, pour ajouter des styles à votre site comme vous le souhaitez. Tailwind peut être un peu pénible à configurer dans Hugo, alors nous l’avons fait pour vous, en espérant vous faire gagner du temps. Le contenu d’exemple de ce modèle est stylé en CSS classique, car Tailwind divise parfois.</p>\n<h2 id=\"customizing-tailwind\">Personnaliser Tailwind</h2>\n<p>Ce modèle utilise Tailwind v4, qui se configure en CSS plutôt que dans un fichier <code>tailwind.config.js</code>. Ajoutez vos propres valeurs de thème, comme les couleurs et les polices, dans un bloc <code>@theme</code> de <code>assets/css/main.css</code> :</p>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-css\" data-lang=\"css\"><span style=\"display:flex;\"><span>@<span style=\"color:#66d9ef\">theme</span> {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--color-brand</span><span style=\"color:#f92672\">:</span> #034ad8<span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--font-display</span><span style=\"color:#f92672\">:</span> <span style=\"color:#e6db74\">\"Poppins\"</span><span style=\"color:#f92672\">,</span> <span style=\"color:#f92672\">sans-serif</span><span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>Elles deviennent des classes utilitaires comme <code>bg-brand</code> et <code>font-display</code>. Consultez la <a href=\"https://tailwindcss.com/docs/theme\">documentation des thèmes Tailwind</a> pour plus d’options.</p>\n<h2 id=\"removing-tailwind\">Supprimer Tailwind</h2>\n<p>Si vous préférez styler votre site en CSS classique et souhaitez supprimer Tailwind :</p>\n<ol>\n<li>Exécutez <code>npm uninstall tailwindcss @tailwindcss/cli</code>.</li>\n<li>Retirez le filtre Tailwind du fichier <code>layouts/partials/css.html</code> (<code> | css.TailwindCSS $opts</code>).</li>\n<li>Supprimez ce qui suit de votre fichier hugo.yaml :</li>\n</ol>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-yaml\" data-lang=\"yaml\"><span style=\"display:flex;\"><span>  - <span style=\"color:#f92672\">source</span>: <span style=\"color:#ae81ff\">(postcss|tailwind)\\.config\\.js</span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#f92672\">target</span>: <span style=\"color:#ae81ff\">css</span>\n</span></span></code></pre></div><ol start=\"4\">\n<li>Supprimez <code>@import \"tailwindcss\";</code> et <code>@source \"hugo_stats.json\";</code> de votre fichier main.css.</li>\n</ol>",
+    "_base_original": "<p>Use Tailwind to style your HTML, allowing you to style your components without leaving your HTML. This can be used in combination with normal CSS and SCSS styling, leaving you to add styles to your site however you want. Tailwind can be a bit of a pain to set up in Hugo, so we’ve set it up for you in the hopes that it will save you some time. The placeholder content in this template is styled with traditional CSS, as Tailwind can be a bit polarising.</p>\n<h2 id=\"customizing-tailwind\">Customizing Tailwind</h2>\n<p>This template uses Tailwind v4, which is configured in CSS rather than in a <code>tailwind.config.js</code> file. Add your own theme values, such as colors and fonts, in an <code>@theme</code> block in <code>assets/css/main.css</code>:</p>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-css\" data-lang=\"css\"><span style=\"display:flex;\"><span>@<span style=\"color:#66d9ef\">theme</span> {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--color-brand</span><span style=\"color:#f92672\">:</span> #034ad8<span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--font-display</span><span style=\"color:#f92672\">:</span> <span style=\"color:#e6db74\">\"Poppins\"</span><span style=\"color:#f92672\">,</span> <span style=\"color:#f92672\">sans-serif</span><span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>These become utility classes like <code>bg-brand</code> and <code>font-display</code>. See the <a href=\"https://tailwindcss.com/docs/theme\">Tailwind theme documentation</a> for more options.</p>\n<h2 id=\"removing-tailwind\">Removing Tailwind</h2>\n<p>If you’d rather use traditional CSS to style your site, and would like to remove Tailwind:</p>\n<ol>\n<li>Run <code>npm uninstall tailwindcss @tailwindcss/cli</code>.</li>\n<li>Remove the Tailwind filter from the <code>layouts/partials/css.html</code> file (<code> | css.TailwindCSS $opts</code>).</li>\n<li>Remove the following from your hugo.yaml file:</li>\n</ol>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-yaml\" data-lang=\"yaml\"><span style=\"display:flex;\"><span>  - <span style=\"color:#f92672\">source</span>: <span style=\"color:#ae81ff\">(postcss|tailwind)\\.config\\.js</span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#f92672\">target</span>: <span style=\"color:#ae81ff\">css</span>\n</span></span></code></pre></div><ol start=\"4\">\n<li>Remove <code>@import \"tailwindcss\";</code> and <code>@source \"hugo_stats.json\";</code> from your main.css file.</li>\n</ol>"
+  },
+  "blog/tailwind:hero_image_alt": {
+    "original": "A group of people conversing around a laptop.",
+    "value": "Un groupe de personnes discutant autour d’un ordinateur portable.",
+    "_base_original": "A group of people conversing around a laptop."
+  },
+  "blog/tailwind:page_description": {
+    "original": "A post describing how to use Tailwind to style your site, and how to uninstall it if you don't want it.",
+    "value": "Un article expliquant comment utiliser Tailwind pour styler votre site, et comment le désinstaller si vous n’en voulez pas.",
+    "_base_original": "A post describing how to use Tailwind to style your site, and how to uninstall it if you don't want it."
+  },
+  "blog/tailwind:page_title": {
+    "original": "Tailwind | Hugo Starter by CloudCannon",
+    "value": "Tailwind | Hugo Starter by CloudCannon",
+    "_base_original": "Tailwind | Hugo Starter by CloudCannon"
+  },
+  "blog/tailwind:thumb_image_alt": {
+    "original": "A group of people conversing around a laptop.",
+    "value": "Un groupe de personnes discutant autour d’un ordinateur portable.",
+    "_base_original": "A group of people conversing around a laptop."
+  },
+  "blog/tailwind:title": {
+    "original": "Tailwind",
+    "value": "Tailwind",
+    "_base_original": "Tailwind"
+  },
+  "categories:page_title": {
+    "original": "Categories | Hugo Starter by CloudCannon",
+    "value": "Catégories | Hugo Starter by CloudCannon",
+    "_base_original": "Categories | Hugo Starter by CloudCannon"
+  },
+  "categories:title": {
+    "original": "Categories",
+    "value": "Catégories",
+    "_base_original": "Categories"
+  },
+  "dates:2025-05-06": {
+    "original": "May 6, 2025",
+    "value": "6 mai 2025",
+    "_base_original": "May 6, 2025"
+  },
+  "dates:2025-05-07": {
+    "original": "May 7, 2025",
+    "value": "7 mai 2025",
+    "_base_original": "May 7, 2025"
+  },
+  "dates:2025-05-08": {
+    "original": "May 8, 2025",
+    "value": "8 mai 2025",
+    "_base_original": "May 8, 2025"
+  },
+  "dates:2025-06-21": {
+    "original": "June 21, 2025",
+    "value": "21 juin 2025",
+    "_base_original": "June 21, 2025"
+  },
+  "footer:blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "footer:cloudcannon": {
+    "original": "CloudCannon",
+    "value": "CloudCannon",
+    "_base_original": "CloudCannon"
+  },
+  "footer:copyright_statement": {
+    "original": "MyCompany. All rights reserved.",
+    "value": "MyCompany. Tous droits réservés.",
+    "_base_original": "MyCompany. All rights reserved."
+  },
+  "footer:github": {
+    "original": "GitHub",
+    "value": "GitHub",
+    "_base_original": "GitHub"
+  },
+  "index:30ea041e-0636-4344-aeef-342c83f5d721:506d3f9d-6e3f-43a7-a293-e84270a6dc63:button_text": {
+    "original": "GitHub",
+    "value": "GitHub",
+    "_base_original": "GitHub"
+  },
+  "index:30ea041e-0636-4344-aeef-342c83f5d721:heading": {
+    "original": "You choose your editing experience.",
+    "value": "Choisissez votre façon d’éditer.",
+    "_base_original": "You choose your editing experience."
+  },
+  "index:30ea041e-0636-4344-aeef-342c83f5d721:image_alt": {
+    "original": "An illustration of someone leaning on one leg while facing us, next to a laptop that comes up their waist. One of their hands is on the back of the laptop, and one is in their pocket. On the laptop screen is an illustration of the world.",
+    "value": "Illustration d’une personne en appui sur une jambe, face à nous, à côté d’un ordinateur portable qui lui arrive à la taille. Une main est posée sur le dos de l’ordinateur, l’autre est dans sa poche. Sur l’écran, une illustration du globe terrestre.",
+    "_base_original": "An illustration of someone leaning on one leg while facing us, next to a laptop that comes up their waist. One of their hands is on the back of the laptop, and one is in their pocket. On the laptop screen is an illustration of the world."
+  },
+  "index:30ea041e-0636-4344-aeef-342c83f5d721:text": {
+    "original": "<p>CloudCannon is a flexible Git-backed CMS that specialises in editing markdown and data files.</p>\n<p>Visual editing allows you to preview your changes live before you save them.</p>\n<p>Git-backed means you can keep all your familiar git workflows, while providing an easy-to-understand interface for non-technical editors to collaborate via Git.</p>",
+    "value": "<p>CloudCannon est un CMS flexible basé sur Git, spécialisé dans l’édition de fichiers Markdown et de données.</p>\n<p>L’édition visuelle vous permet de prévisualiser vos modifications en direct avant de les enregistrer.</p>\n<p>Basé sur Git, il vous permet de conserver tous vos workflows Git habituels, tout en offrant une interface simple aux rédacteurs non techniques pour collaborer via Git.</p>",
+    "_base_original": "<p>CloudCannon is a flexible Git-backed CMS that specialises in editing markdown and data files.</p>\n<p>Visual editing allows you to preview your changes live before you save them.</p>\n<p>Git-backed means you can keep all your familiar git workflows, while providing an easy-to-understand interface for non-technical editors to collaborate via Git.</p>"
+  },
+  "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:e9e7c8c7-0028-4993-9f3f-41d4678e0491:button_text": {
+    "original": "GitHub",
+    "value": "GitHub",
+    "_base_original": "GitHub"
+  },
+  "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:f1197fe2-a6e9-465b-956e-8a3287aace33:button_text": {
+    "original": "CloudCannon",
+    "value": "CloudCannon",
+    "_base_original": "CloudCannon"
+  },
+  "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:heading": {
+    "original": "Hugo Starter",
+    "value": "Hugo Starter",
+    "_base_original": "Hugo Starter"
+  },
+  "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:image_alt": {
+    "original": "An illustration of someone leaning against the inside of a desktop computer monitor, with one leg dangled off the side. They're holding a piece of paper with a large 'A', and are next to some buttons on the screen.",
+    "value": "Illustration d’une personne adossée à l’intérieur d’un écran d’ordinateur, une jambe pendant sur le côté. Elle tient une feuille portant un grand « A » et se trouve à côté de quelques boutons à l’écran.",
+    "_base_original": "An illustration of someone leaning against the inside of a desktop computer monitor, with one leg dangled off the side. They're holding a piece of paper with a large 'A', and are next to some buttons on the screen."
+  },
+  "index:754f6aa6-bcb1-41e7-8f41-b721c2e10543:subheading": {
+    "original": "<p>A starting point for developers looking to build a website with Hugo, using editable regions in <strong>CloudCannon</strong>. Create your own copy, and start creating your own components to use in CloudCannon’s CMS.</p>",
+    "value": "<p>Un point de départ pour les développeurs qui veulent créer un site avec Hugo, en utilisant les zones modifiables de <strong>CloudCannon</strong>. Créez votre propre copie, puis commencez à créer vos propres composants à utiliser dans le CMS de CloudCannon.</p>",
+    "_base_original": "<p>A starting point for developers looking to build a website with Hugo, using editable regions in <strong>CloudCannon</strong>. Create your own copy, and start creating your own components to use in CloudCannon’s CMS.</p>"
+  },
+  "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:heading": {
+    "original": "Keep what you need. Delete the rest.",
+    "value": "Gardez l’essentiel. Supprimez le reste.",
+    "_base_original": "Keep what you need. Delete the rest."
+  },
+  "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:image_alt": {
+    "original": "An illustration of someone sitting a desk with a monitor and a pile of books on it. Seen from behind, the figure is turned around to face us and is waving.",
+    "value": "Illustration d’une personne assise à un bureau avec un écran et une pile de livres. Vue de dos, elle se retourne vers nous et fait un signe de la main.",
+    "_base_original": "An illustration of someone sitting a desk with a monitor and a pile of books on it. Seen from behind, the figure is turned around to face us and is waving."
+  },
+  "index:dc3676f5-9c88-4c4e-9ba7-e15411a2dce9:text": {
+    "original": "<p>The Hugo Starter’s aim is to get developers building their own site quickly in CloudCannon. This template is trying to strike a balance between minimalism and easy-to-delete boilerplate, while providing some commonly used features out of the box:</p>\n<ul>\n<li><a href=\"/blog/paginated-collection/\">Blog with pagination &amp; tags</a></li>\n<li><a href=\"/blog/markdown/\">Markdown options &amp; styles</a></li>\n<li><a href=\"/blog/tailwind/\">Tailwind</a></li>\n<li><a href=\"/blog/icons/\">Font Awesome icons</a></li>\n<li><a href=\"/blog/editable-regions/\">Page building in CloudCannon with editable regions</a></li>\n<li><a href=\"/blog/search/\">Built-in search with Pagefind</a></li>\n<li><a href=\"/blog/processed-images/\">Image processing</a></li>\n<li><a href=\"/blog/markdown/#snippets\">Pre-configured shortcodes</a></li>\n<li><a href=\"/blog/data-files/\">Header and Footer controls</a></li>\n<li><a href=\"/blog/page-building/\">Creating and deleting pages</a></li>\n<li><a href=\"/blog/lighthouse-scores/#accessibility\">Accessibility controls</a></li>\n<li><a href=\"/blog/seo/\">SEO controls</a></li>\n<li><a href=\"/blog/data-files/\">Color palette controls</a></li>\n</ul>",
+    "value": "<p>Le Hugo Starter a pour but de permettre aux développeurs de construire rapidement leur propre site dans CloudCannon. Ce modèle cherche le juste équilibre entre minimalisme et code de base facile à supprimer, tout en proposant d’emblée des fonctionnalités courantes :</p>\n<ul>\n<li><a href=\"/blog/paginated-collection/\">Blog avec pagination et étiquettes</a></li>\n<li><a href=\"/blog/markdown/\">Options et styles Markdown</a></li>\n<li><a href=\"/blog/tailwind/\">Tailwind</a></li>\n<li><a href=\"/blog/icons/\">Icônes Font Awesome</a></li>\n<li><a href=\"/blog/editable-regions/\">Construction de pages dans CloudCannon avec les zones modifiables</a></li>\n<li><a href=\"/blog/search/\">Recherche intégrée avec Pagefind</a></li>\n<li><a href=\"/blog/processed-images/\">Traitement d’images</a></li>\n<li><a href=\"/blog/markdown/#snippets\">Shortcodes préconfigurés</a></li>\n<li><a href=\"/blog/data-files/\">Réglages de l’en-tête et du pied de page</a></li>\n<li><a href=\"/blog/page-building/\">Création et suppression de pages</a></li>\n<li><a href=\"/blog/lighthouse-scores/#accessibility\">Réglages d’accessibilité</a></li>\n<li><a href=\"/blog/seo/\">Réglages SEO</a></li>\n<li><a href=\"/blog/data-files/\">Réglages de la palette de couleurs</a></li>\n</ul>",
+    "_base_original": "<p>The Hugo Starter’s aim is to get developers building their own site quickly in CloudCannon. This template is trying to strike a balance between minimalism and easy-to-delete boilerplate, while providing some commonly used features out of the box:</p>\n<ul>\n<li><a href=\"/blog/paginated-collection/\">Blog with pagination &amp; tags</a></li>\n<li><a href=\"/blog/markdown/\">Markdown options &amp; styles</a></li>\n<li><a href=\"/blog/tailwind/\">Tailwind</a></li>\n<li><a href=\"/blog/icons/\">Font Awesome icons</a></li>\n<li><a href=\"/blog/editable-regions/\">Page building in CloudCannon with editable regions</a></li>\n<li><a href=\"/blog/search/\">Built-in search with Pagefind</a></li>\n<li><a href=\"/blog/processed-images/\">Image processing</a></li>\n<li><a href=\"/blog/markdown/#snippets\">Pre-configured shortcodes</a></li>\n<li><a href=\"/blog/data-files/\">Header and Footer controls</a></li>\n<li><a href=\"/blog/page-building/\">Creating and deleting pages</a></li>\n<li><a href=\"/blog/lighthouse-scores/#accessibility\">Accessibility controls</a></li>\n<li><a href=\"/blog/seo/\">SEO controls</a></li>\n<li><a href=\"/blog/data-files/\">Color palette controls</a></li>\n</ul>"
+  },
+  "index:page_description": {
+    "original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon.",
+    "value": "Un point de départ pour les développeurs qui veulent créer un site avec Hugo, en utilisant les zones modifiables de CloudCannon.",
+    "_base_original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon."
+  },
+  "index:page_title": {
+    "original": "Hugo Starter",
+    "value": "Hugo Starter",
+    "_base_original": "Hugo Starter"
+  },
+  "nav:blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "nav:close_menu": {
+    "original": "Close the mobile navigation menu",
+    "value": "Fermer le menu de navigation mobile",
+    "_base_original": "Close the mobile navigation menu"
+  },
+  "nav:cloudcannon": {
+    "original": "CloudCannon",
+    "value": "CloudCannon",
+    "_base_original": "CloudCannon"
+  },
+  "nav:github": {
+    "original": "GitHub",
+    "value": "GitHub",
+    "_base_original": "GitHub"
+  },
+  "nav:menu_links": {
+    "original": "Navigation menu links",
+    "value": "Liens du menu de navigation",
+    "_base_original": "Navigation menu links"
+  },
+  "nav:open_menu": {
+    "original": "Open the mobile navigation menu",
+    "value": "Ouvrir le menu de navigation mobile",
+    "_base_original": "Open the mobile navigation menu"
+  },
+  "page_description": {
+    "original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon.",
+    "value": "Un point de départ pour les développeurs qui veulent créer un site avec Hugo, en utilisant les zones modifiables de CloudCannon.",
+    "_base_original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon."
+  },
+  "pagination:next_page": {
+    "original": "Next page",
+    "value": "Page suivante",
+    "_base_original": "Next page"
+  },
+  "pagination:previous_page": {
+    "original": "Previous page",
+    "value": "Page précédente",
+    "_base_original": "Previous page"
+  },
+  "skip_to_main_content": {
+    "original": "Skip to main content",
+    "value": "Aller au contenu principal",
+    "_base_original": "Skip to main content"
+  },
+  "tag-labels:accessibility": {
+    "original": "Accessibility",
+    "value": "Accessibilité",
+    "_base_original": "Accessibility"
+  },
+  "tag-labels:building": {
+    "original": "Building",
+    "value": "Construction",
+    "_base_original": "Building"
+  },
+  "tag-labels:components": {
+    "original": "Components",
+    "value": "Composants",
+    "_base_original": "Components"
+  },
+  "tag-labels:data": {
+    "original": "Data",
+    "value": "Données",
+    "_base_original": "Data"
+  },
+  "tag-labels:editable-regions": {
+    "original": "Editable regions",
+    "value": "Zones modifiables",
+    "_base_original": "Editable regions"
+  },
+  "tag-labels:editing": {
+    "original": "Editing",
+    "value": "Édition",
+    "_base_original": "Editing"
+  },
+  "tag-labels:icons": {
+    "original": "Icons",
+    "value": "Icônes",
+    "_base_original": "Icons"
+  },
+  "tag-labels:images": {
+    "original": "Images",
+    "value": "Images",
+    "_base_original": "Images"
+  },
+  "tag-labels:inputs": {
+    "original": "Inputs",
+    "value": "Champs",
+    "_base_original": "Inputs"
+  },
+  "tag-labels:live-editing": {
+    "original": "Live editing",
+    "value": "Édition en direct",
+    "_base_original": "Live editing"
+  },
+  "tag-labels:markdown": {
+    "original": "Markdown",
+    "value": "Markdown",
+    "_base_original": "Markdown"
+  },
+  "tag-labels:navigation": {
+    "original": "Navigation",
+    "value": "Navigation",
+    "_base_original": "Navigation"
+  },
+  "tag-labels:pagination": {
+    "original": "Pagination",
+    "value": "Pagination",
+    "_base_original": "Pagination"
+  },
+  "tag-labels:schemas": {
+    "original": "Schemas",
+    "value": "Schémas",
+    "_base_original": "Schemas"
+  },
+  "tag-labels:search": {
+    "original": "Search",
+    "value": "Recherche",
+    "_base_original": "Search"
+  },
+  "tag-labels:seo": {
+    "original": "SEO",
+    "value": "SEO",
+    "_base_original": "SEO"
+  },
+  "tag-labels:snippets": {
+    "original": "Snippets",
+    "value": "Snippets",
+    "_base_original": "Snippets"
+  },
+  "tag-labels:styling": {
+    "original": "Styling",
+    "value": "Mise en forme",
+    "_base_original": "Styling"
+  },
+  "tag-labels:tailwind": {
+    "original": "Tailwind",
+    "value": "Tailwind",
+    "_base_original": "Tailwind"
+  },
+  "tag-labels:wysiwyg-editing": {
+    "original": "WYSIWYG editing",
+    "value": "Édition WYSIWYG",
+    "_base_original": "WYSIWYG editing"
+  },
+  "tags:page_title": {
+    "original": "Tags | Hugo Starter by CloudCannon",
+    "value": "Étiquettes | Hugo Starter by CloudCannon",
+    "_base_original": "Tags | Hugo Starter by CloudCannon"
+  },
+  "tags:title": {
+    "original": "Tags",
+    "value": "Étiquettes",
+    "_base_original": "Tags"
+  },
+  "tags/accessibility:page_title": {
+    "original": "Accessibility | Hugo Starter by CloudCannon",
+    "value": "Accessibilité | Hugo Starter by CloudCannon",
+    "_base_original": "Accessibility | Hugo Starter by CloudCannon"
+  },
+  "tags/building:page_title": {
+    "original": "Building | Hugo Starter by CloudCannon",
+    "value": "Construction | Hugo Starter by CloudCannon",
+    "_base_original": "Building | Hugo Starter by CloudCannon"
+  },
+  "tags/components:page_title": {
+    "original": "Components | Hugo Starter by CloudCannon",
+    "value": "Composants | Hugo Starter by CloudCannon",
+    "_base_original": "Components | Hugo Starter by CloudCannon"
+  },
+  "tags/data:page_title": {
+    "original": "Data | Hugo Starter by CloudCannon",
+    "value": "Données | Hugo Starter by CloudCannon",
+    "_base_original": "Data | Hugo Starter by CloudCannon"
+  },
+  "tags/editable-regions:page_title": {
+    "original": "Editable Regions | Hugo Starter by CloudCannon",
+    "value": "Zones modifiables | Hugo Starter by CloudCannon",
+    "_base_original": "Editable Regions | Hugo Starter by CloudCannon"
+  },
+  "tags/editing:page_title": {
+    "original": "Editing | Hugo Starter by CloudCannon",
+    "value": "Édition | Hugo Starter by CloudCannon",
+    "_base_original": "Editing | Hugo Starter by CloudCannon"
+  },
+  "tags/icons:page_title": {
+    "original": "Icons | Hugo Starter by CloudCannon",
+    "value": "Icônes | Hugo Starter by CloudCannon",
+    "_base_original": "Icons | Hugo Starter by CloudCannon"
+  },
+  "tags/images:page_title": {
+    "original": "Images | Hugo Starter by CloudCannon",
+    "value": "Images | Hugo Starter by CloudCannon",
+    "_base_original": "Images | Hugo Starter by CloudCannon"
+  },
+  "tags/inputs:page_title": {
+    "original": "Inputs | Hugo Starter by CloudCannon",
+    "value": "Champs | Hugo Starter by CloudCannon",
+    "_base_original": "Inputs | Hugo Starter by CloudCannon"
+  },
+  "tags/live-editing:page_title": {
+    "original": "Live Editing | Hugo Starter by CloudCannon",
+    "value": "Édition en direct | Hugo Starter by CloudCannon",
+    "_base_original": "Live Editing | Hugo Starter by CloudCannon"
+  },
+  "tags/markdown:page_title": {
+    "original": "Markdown | Hugo Starter by CloudCannon",
+    "value": "Markdown | Hugo Starter by CloudCannon",
+    "_base_original": "Markdown | Hugo Starter by CloudCannon"
+  },
+  "tags/navigation:page_title": {
+    "original": "Navigation | Hugo Starter by CloudCannon",
+    "value": "Navigation | Hugo Starter by CloudCannon",
+    "_base_original": "Navigation | Hugo Starter by CloudCannon"
+  },
+  "tags/pagination:page_title": {
+    "original": "Pagination | Hugo Starter by CloudCannon",
+    "value": "Pagination | Hugo Starter by CloudCannon",
+    "_base_original": "Pagination | Hugo Starter by CloudCannon"
+  },
+  "tags/schemas:page_title": {
+    "original": "Schemas | Hugo Starter by CloudCannon",
+    "value": "Schémas | Hugo Starter by CloudCannon",
+    "_base_original": "Schemas | Hugo Starter by CloudCannon"
+  },
+  "tags/search:page_title": {
+    "original": "Search | Hugo Starter by CloudCannon",
+    "value": "Recherche | Hugo Starter by CloudCannon",
+    "_base_original": "Search | Hugo Starter by CloudCannon"
+  },
+  "tags/seo:page_title": {
+    "original": "Seo | Hugo Starter by CloudCannon",
+    "value": "SEO | Hugo Starter by CloudCannon",
+    "_base_original": "Seo | Hugo Starter by CloudCannon"
+  },
+  "tags/snippets:page_title": {
+    "original": "Snippets | Hugo Starter by CloudCannon",
+    "value": "Snippets | Hugo Starter by CloudCannon",
+    "_base_original": "Snippets | Hugo Starter by CloudCannon"
+  },
+  "tags/styling:page_title": {
+    "original": "Styling | Hugo Starter by CloudCannon",
+    "value": "Mise en forme | Hugo Starter by CloudCannon",
+    "_base_original": "Styling | Hugo Starter by CloudCannon"
+  },
+  "tags/tailwind:page_title": {
+    "original": "Tailwind | Hugo Starter by CloudCannon",
+    "value": "Tailwind | Hugo Starter by CloudCannon",
+    "_base_original": "Tailwind | Hugo Starter by CloudCannon"
+  },
+  "tags/wysiwyg-editing:page_title": {
+    "original": "WYSIWYG Editing | Hugo Starter by CloudCannon",
+    "value": "Édition WYSIWYG | Hugo Starter by CloudCannon",
+    "_base_original": "WYSIWYG Editing | Hugo Starter by CloudCannon"
+  }
+}

@@ -1,0 +1,14 @@
+{{- /* Visitor-facing language switcher. Default language at the root; other
+       locales at /{code} + the default-language URL. data-rosey-ignore stops
+       Rosey prefixing these links on generated pages. Locales are listed in
+       params.locales in hugo.yaml. */ -}}
+{{- $base := .RelPermalink -}}
+{{- range .AllTranslations -}}
+  {{- if eq .Language.Lang hugo.Sites.Default.Language.Lang }}{{ $base = .RelPermalink }}{{ end -}}
+{{- end -}}
+<nav aria-label="Language" class="locale-picker">
+  {{- range site.Params.locales }}
+    {{- $href := cond (eq .code "en") $base (print "/" .code $base) }}
+    <a href="{{ $href }}" hreflang="{{ .code }}" lang="{{ .code }}" data-rosey-ignore>{{ .label }}</a>
+  {{- end }}
+</nav>

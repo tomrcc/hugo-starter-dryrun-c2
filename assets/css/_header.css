@@ -1,0 +1,104 @@
+.header {
+  position: relative;
+  z-index: 99;
+}
+.header__container {
+  max-width: var(--pageContainer);
+  margin: 0 auto;
+  padding-inline: var(--pagePadding);
+}
+.skip-button {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-button:focus {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background-color: white;
+  text-decoration: underline;
+  padding: 8px 16px;
+}
+
+.header li {
+  list-style-type: none;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: var(--headerPadding);
+}
+.header__logo-image {
+  width: auto;
+  height: calc(var(--headerHeight) - (var(--headerPadding) * 2));
+}
+.header__nav-links {
+  position: absolute;
+  z-index: 199;
+  right: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: calc(var(--sectionPaddingMobile) + var(--headerHeight));
+  padding-bottom: var(--sectionPaddingMobile);
+  padding-inline: calc(var(--pagePadding));
+  border-radius: 4px 0 0 4px;
+}
+.header__nav-link {
+  cursor: pointer;
+}
+.hamburger {
+  position: relative;
+  z-index: 200;
+  cursor: pointer;
+}
+.hamburger i {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+  .header__nav-links {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    min-width: none;
+    background-color: transparent;
+  }
+  .header__nav-item {
+    padding-left: 1rem;
+  }
+}
+
+/* Visitor-facing language switcher (layouts/partials/locale-picker.html) */
+.locale-picker {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 0.875rem;
+  margin-inline-start: 1rem;
+}
+.locale-picker a {
+  text-decoration: none;
+  opacity: 0.7;
+}
+.locale-picker a.active,
+.locale-picker a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

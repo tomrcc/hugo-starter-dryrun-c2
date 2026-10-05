@@ -1,0 +1,14 @@
+_site
+.sass-cache
+vendor
+_vendor
+public
+node_modules
+_gen
+.hugo_build.lock
+.env
+.DS_Store
+assets/jsconfig.json
+.hugo_cache
+.cloudcannon/migration/*.schema.json
+_untranslated_site/
