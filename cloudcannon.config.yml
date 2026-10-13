@@ -16,25 +16,12 @@ commit_templates:
     template_string: '{message}'
 
 collections_config:
-  pages:
-    path: content
-    icon: laptop_mac
-    url: '/[full_slug]/'
-    glob:
-      - '**/*.md'
-      - '!blog/*'
-    _enabled_editors:
-      - visual
-    new_preview_url: /
-    schemas:
-      default:
-        path: '.cloudcannon/schemas/page.md'
-    create:
-      path: '[relative_base_path]/{filename|slugify|lowercase}.md'
   blog:
     icon: newspaper
     path: content/blog
     url: '/blog/[full_slug]/'
+    glob: 
+      - '!_index.md'
     schemas:
       default:
         path: '.cloudcannon/schemas/post.md'
@@ -49,6 +36,12 @@ collections_config:
     _enabled_editors:
       - visual
       - content
+    _editables: 
+      content:
+        image: true
+        paths:
+          static: ""
+          uploads: content/blog/[relative_base_path]/
     _inputs:
       thumb_image:
         options:
@@ -72,6 +65,20 @@ collections_config:
             subtext:
               - key: image_path
               - Update Image Path and Alt Text
+  pages:
+    path: content
+    icon: laptop_mac
+    url: '/[full_slug]/'
+    glob:
+      - '**/*.md'
+    _enabled_editors:
+      - visual
+    new_preview_url: /
+    schemas:
+      default:
+        path: '.cloudcannon/schemas/page.md'
+    create:
+      path: '[relative_base_path]/{filename|slugify|lowercase}.md'
   data:
     path: data
     disable_url: true
