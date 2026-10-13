@@ -29,6 +29,7 @@
       "original": "Recent Posts",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -41,7 +42,43 @@
         "blog/seo/index.html": 1,
         "blog/tailwind/index.html": 1
       },
-      "total": 11
+      "total": 12
+    },
+    "blog/a-new-post:body": {
+      "original": "\n      \n    ",
+      "value": null,
+      "pages": {
+        "blog/a-new-post/index.html": 1
+      },
+      "total": 1
+    },
+    "blog/a-new-post:page_title": {
+      "original": "Test | Hugo Starter by CloudCannon",
+      "value": null,
+      "pages": {
+        "blog/a-new-post/index.html": 2
+      },
+      "total": 2
+    },
+    "blog/a-new-post:title": {
+      "original": "Test",
+      "value": null,
+      "pages": {
+        "blog/a-new-post/index.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1
+      },
+      "total": 13
     },
     "blog/data-files:body": {
       "original": "\n      <p>This template uses data files to:</p>\n<ul>\n<li>Populate select &amp; multiselect inputs in CloudCannon.\n<ul>\n<li>Colors</li>\n<li>Icons</li>\n<li>Tags</li>\n</ul>\n</li>\n<li>Set sitewide values such as the overall site SEO settings.\n<ul>\n<li>Site title</li>\n<li>Description</li>\n<li>OG image</li>\n<li>Page type</li>\n</ul>\n</li>\n<li>Control header and footer data to allow editors to control navigation.\n<ul>\n<li>Logo</li>\n<li>Colors</li>\n<li>Page links</li>\n<li>Social links</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>\n\n    ",
@@ -130,6 +167,7 @@
       "original": "A birds eye view of a group of people working on laptops around a table.",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/icons/index.html": 1,
         "blog/index.html": 1,
@@ -145,12 +183,13 @@
         "tags/editable-regions/index.html": 1,
         "tags/live-editing/index.html": 1
       },
-      "total": 14
+      "total": 15
     },
     "blog/editable-regions:title": {
       "original": "Editable Regions",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -167,7 +206,7 @@
         "tags/editable-regions/index.html": 1,
         "tags/live-editing/index.html": 1
       },
-      "total": 15
+      "total": 16
     },
     "blog/icons:hero_image_alt": {
       "original": "A man in front of a laptop with a coffee in a dimly lit cafe.",
@@ -252,7 +291,7 @@
       "original": "A top-down shot of people working at a table.",
       "value": null,
       "pages": {
-        "blog/index.html": 1,
+        "blog/page/2/index.html": 1,
         "tags/accessibility/index.html": 1,
         "tags/images/index.html": 1,
         "tags/seo/index.html": 1
@@ -263,8 +302,8 @@
       "original": "Green Lighthouse Scores",
       "value": null,
       "pages": {
-        "blog/index.html": 1,
         "blog/lighthouse-scores/index.html": 1,
+        "blog/page/2/index.html": 1,
         "tags/accessibility/index.html": 1,
         "tags/images/index.html": 1,
         "tags/seo/index.html": 1
@@ -470,6 +509,7 @@
       "original": "A woman sitting sideways on a chair, working at a desk on a laptop. The only other thing on the desk is a small pot plant.",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -486,12 +526,13 @@
         "tags/live-editing/index.html": 1,
         "tags/seo/index.html": 1
       },
-      "total": 15
+      "total": 16
     },
     "blog/processed-images:title": {
       "original": "Processed Images",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -509,7 +550,7 @@
         "tags/live-editing/index.html": 1,
         "tags/seo/index.html": 1
       },
-      "total": 16
+      "total": 17
     },
     "blog/search:body": {
       "original": "\n      <p>Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure.</p>\n<p>After indexing, Pagefind adds a static search bundle to your built files, which exposes a JavaScript search API that can be used anywhere on your site. Pagefind also provides a prebuilt UI that can be used with no configuration. (You can see the prebuilt UI at the top of this page.)</p>\n<p>On this template, the search has been scoped to index only the text content of blog posts, to avoid showing results on the homepage, blog index page, header and footer. The search bar is located at the top of the blog index page.</p>\n<p>The goal of Pagefind is that websites with tens of thousands of pages should be searchable by someone in their browser, while consuming as little bandwidth as possible. Pagefind’s search index is split into chunks, so that searching in the browser only ever needs to load a small subset of the search index. Pagefind can run a full-text search on a 10,000 page site with a total network payload under 300kB, including the Pagefind library itself. For most sites, this will be closer to 100kB.</p>\n\n    ",
@@ -547,40 +588,26 @@
       "original": "A group of four people working in front of one laptop in an office environment.",
       "value": null,
       "pages": {
-        "blog/data-files/index.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/editable-regions/index.html": 1,
-        "blog/icons/index.html": 1,
         "blog/index.html": 1,
-        "blog/lighthouse-scores/index.html": 1,
-        "blog/markdown/index.html": 1,
-        "blog/page-building/index.html": 1,
-        "blog/paginated-collection/index.html": 1,
         "blog/processed-images/index.html": 1,
-        "blog/seo/index.html": 1,
-        "blog/tailwind/index.html": 1,
         "tags/search/index.html": 1
       },
-      "total": 12
+      "total": 5
     },
     "blog/search:title": {
       "original": "Pagefind Search",
       "value": null,
       "pages": {
-        "blog/data-files/index.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/editable-regions/index.html": 1,
-        "blog/icons/index.html": 1,
         "blog/index.html": 1,
-        "blog/lighthouse-scores/index.html": 1,
-        "blog/markdown/index.html": 1,
-        "blog/page-building/index.html": 1,
-        "blog/paginated-collection/index.html": 1,
         "blog/processed-images/index.html": 1,
         "blog/search/index.html": 1,
-        "blog/seo/index.html": 1,
-        "blog/tailwind/index.html": 1,
         "tags/search/index.html": 1
       },
-      "total": 13
+      "total": 6
     },
     "blog/seo:body": {
       "original": "\n      <p>Control SEO values on a page-by-page, and site-wide basis.</p>\n<p>Inputs on individual pages are used for SEO values for the page, and if they’re not set the site-wide values are used as a fallback.</p>\n<p>Comes with all the inputs you need to encourage editors to fill in the content that search engines expect for good SEO rankings. Performance, best practices and accessibility all play a part in this as well.</p>\n\n    ",
@@ -618,26 +645,20 @@
       "original": "Someone reading from a book while seated at a white desk. Also on the desk is a notebook, some marker pens, and an open laptop.",
       "value": null,
       "pages": {
-        "blog/editable-regions/index.html": 1,
         "blog/index.html": 1,
-        "blog/processed-images/index.html": 1,
-        "blog/search/index.html": 1,
         "tags/seo/index.html": 1
       },
-      "total": 5
+      "total": 2
     },
     "blog/seo:title": {
       "original": "SEO Controls",
       "value": null,
       "pages": {
-        "blog/editable-regions/index.html": 1,
         "blog/index.html": 1,
-        "blog/processed-images/index.html": 1,
-        "blog/search/index.html": 1,
         "blog/seo/index.html": 1,
         "tags/seo/index.html": 1
       },
-      "total": 6
+      "total": 3
     },
     "blog/tailwind:body": {
       "original": "\n      <p>Use Tailwind to style your HTML, allowing you to style your components without leaving your HTML. This can be used in combination with normal CSS and SCSS styling, leaving you to add styles to your site however you want. Tailwind can be a bit of a pain to set up in Hugo, so we’ve set it up for you in the hopes that it will save you some time. The placeholder content in this template is styled with traditional CSS, as Tailwind can be a bit polarising.</p>\n<h2 id=\"customizing-tailwind\">Customizing Tailwind</h2>\n<p>This template uses Tailwind v4, which is configured in CSS rather than in a <code>tailwind.config.js</code> file. Add your own theme values, such as colors and fonts, in an <code>@theme</code> block in <code>assets/css/main.css</code>:</p>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-css\" data-lang=\"css\"><span style=\"display:flex;\"><span>@<span style=\"color:#66d9ef\">theme</span> {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--color-brand</span><span style=\"color:#f92672\">:</span> #034ad8<span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#f92672\">--font-display</span><span style=\"color:#f92672\">:</span> <span style=\"color:#e6db74\">\"Poppins\"</span><span style=\"color:#f92672\">,</span> <span style=\"color:#f92672\">sans-serif</span><span style=\"color:#f92672\">;</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>These become utility classes like <code>bg-brand</code> and <code>font-display</code>. See the <a href=\"https://tailwindcss.com/docs/theme\">Tailwind theme documentation</a> for more options.</p>\n<h2 id=\"removing-tailwind\">Removing Tailwind</h2>\n<p>If you’d rather use traditional CSS to style your site, and would like to remove Tailwind:</p>\n<ol>\n<li>Run <code>npm uninstall tailwindcss @tailwindcss/cli</code>.</li>\n<li>Remove the Tailwind filter from the <code>layouts/partials/css.html</code> file (<code> | css.TailwindCSS $opts</code>).</li>\n<li>Remove the following from your hugo.yaml file:</li>\n</ol>\n<div class=\"highlight\"><pre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\" tabindex=\"0\"><code class=\"language-yaml\" data-lang=\"yaml\"><span style=\"display:flex;\"><span>  - <span style=\"color:#f92672\">source</span>: <span style=\"color:#ae81ff\">(postcss|tailwind)\\.config\\.js</span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#f92672\">target</span>: <span style=\"color:#ae81ff\">css</span>\n</span></span></code></pre></div><ol start=\"4\">\n<li>Remove <code>@import \"tailwindcss\";</code> and <code>@source \"hugo_stats.json\";</code> from your main.css file.</li>\n</ol>\n\n    ",
@@ -742,16 +763,13 @@
       "value": null,
       "pages": {
         "blog/data-files/index.html": 1,
-        "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
-        "blog/index.html": 3,
+        "blog/index.html": 2,
         "blog/lighthouse-scores/index.html": 1,
         "blog/markdown/index.html": 1,
         "blog/page-building/index.html": 1,
-        "blog/page/2/index.html": 5,
+        "blog/page/2/index.html": 6,
         "blog/paginated-collection/index.html": 1,
-        "blog/processed-images/index.html": 1,
-        "blog/search/index.html": 1,
         "blog/seo/index.html": 1,
         "blog/tailwind/index.html": 1,
         "tags/accessibility/index.html": 1,
@@ -774,32 +792,26 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 46
+      "total": 43
     },
     "dates:2025-05-07": {
       "original": "May 7, 2025",
       "value": null,
       "pages": {
-        "blog/data-files/index.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/editable-regions/index.html": 1,
-        "blog/icons/index.html": 1,
         "blog/index.html": 1,
-        "blog/lighthouse-scores/index.html": 1,
-        "blog/markdown/index.html": 1,
-        "blog/page-building/index.html": 1,
-        "blog/paginated-collection/index.html": 1,
         "blog/processed-images/index.html": 1,
         "blog/search/index.html": 1,
-        "blog/seo/index.html": 1,
-        "blog/tailwind/index.html": 1,
         "tags/search/index.html": 1
       },
-      "total": 13
+      "total": 6
     },
     "dates:2025-05-08": {
       "original": "May 8, 2025",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -816,12 +828,13 @@
         "tags/editable-regions/index.html": 1,
         "tags/live-editing/index.html": 1
       },
-      "total": 15
+      "total": 16
     },
     "dates:2025-06-21": {
       "original": "June 21, 2025",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -839,13 +852,34 @@
         "tags/live-editing/index.html": 1,
         "tags/seo/index.html": 1
       },
-      "total": 16
+      "total": 17
+    },
+    "dates:2026-10-13": {
+      "original": "October 13, 2026",
+      "value": null,
+      "pages": {
+        "blog/a-new-post/index.html": 1,
+        "blog/data-files/index.html": 1,
+        "blog/editable-regions/index.html": 1,
+        "blog/icons/index.html": 1,
+        "blog/index.html": 1,
+        "blog/lighthouse-scores/index.html": 1,
+        "blog/markdown/index.html": 1,
+        "blog/page-building/index.html": 1,
+        "blog/paginated-collection/index.html": 1,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
+        "blog/seo/index.html": 1,
+        "blog/tailwind/index.html": 1
+      },
+      "total": 13
     },
     "footer:blog": {
       "original": "Blog",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -886,13 +920,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "footer:cloudcannon": {
       "original": "CloudCannon",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -933,13 +968,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "footer:copyright_statement": {
       "original": "MyCompany. All rights reserved.",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -980,13 +1016,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "footer:github": {
       "original": "GitHub",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1027,7 +1064,7 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "index:30ea041e-0636-4344-aeef-342c83f5d721:506d3f9d-6e3f-43a7-a293-e84270a6dc63:button_text": {
       "original": "GitHub",
@@ -1146,6 +1183,7 @@
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1186,13 +1224,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "nav:close_menu": {
       "original": "Close the mobile navigation menu",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1233,13 +1272,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "nav:cloudcannon": {
       "original": "\n            CloudCannon\n          ",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1280,13 +1320,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "nav:github": {
       "original": "\n            GitHub\n          ",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1327,13 +1368,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "nav:menu_links": {
       "original": "Navigation menu links",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1374,13 +1416,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "nav:open_menu": {
       "original": "Open the mobile navigation menu",
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1421,13 +1464,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "page_description": {
       "original": "A starting point for developers looking to build a website with Hugo, using editable regions in CloudCannon.",
       "value": null,
       "pages": {
         "404.html": 2,
+        "blog/a-new-post/index.html": 2,
         "categories/index.html": 2,
         "tags/accessibility/index.html": 2,
         "tags/building/index.html": 2,
@@ -1454,7 +1498,7 @@
         "tags/tailwind/index.html": 2,
         "tags/wysiwyg-editing/index.html": 2
       },
-      "total": 52
+      "total": 54
     },
     "pagination:next_page": {
       "original": "Next page",
@@ -1483,6 +1527,7 @@
       "value": null,
       "pages": {
         "404.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1523,14 +1568,14 @@
         "tags/tailwind/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 40
+      "total": 41
     },
     "tag-labels:accessibility": {
       "original": "Accessibility",
       "value": null,
       "pages": {
-        "blog/index.html": 1,
         "blog/lighthouse-scores/index.html": 1,
+        "blog/page/2/index.html": 1,
         "tags/accessibility/index.html": 2,
         "tags/images/index.html": 1,
         "tags/page/4/index.html": 1,
@@ -1566,6 +1611,7 @@
       "original": "Components",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 2,
         "blog/data-files/index.html": 2,
         "blog/editable-regions/index.html": 2,
         "blog/icons/index.html": 3,
@@ -1592,7 +1638,7 @@
         "tags/styling/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 47
+      "total": 49
     },
     "tag-labels:data": {
       "original": "Data",
@@ -1613,6 +1659,7 @@
       "original": "Editable regions",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
@@ -1635,7 +1682,7 @@
         "tags/schemas/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 26
+      "total": 27
     },
     "tag-labels:editing": {
       "original": "Editing",
@@ -1676,13 +1723,15 @@
       "original": "Images",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 1,
         "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
-        "blog/index.html": 2,
+        "blog/index.html": 1,
         "blog/lighthouse-scores/index.html": 2,
         "blog/markdown/index.html": 1,
         "blog/page-building/index.html": 1,
+        "blog/page/2/index.html": 1,
         "blog/paginated-collection/index.html": 1,
         "blog/processed-images/index.html": 1,
         "blog/search/index.html": 1,
@@ -1695,7 +1744,7 @@
         "tags/page/3/index.html": 1,
         "tags/seo/index.html": 2
       },
-      "total": 23
+      "total": 24
     },
     "tag-labels:inputs": {
       "original": "Inputs",
@@ -1716,6 +1765,7 @@
       "original": "Live editing",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 2,
         "blog/data-files/index.html": 2,
         "blog/editable-regions/index.html": 2,
         "blog/icons/index.html": 2,
@@ -1740,7 +1790,7 @@
         "tags/seo/index.html": 1,
         "tags/wysiwyg-editing/index.html": 1
       },
-      "total": 42
+      "total": 44
     },
     "tag-labels:markdown": {
       "original": "Markdown",
@@ -1806,38 +1856,32 @@
       "original": "Search",
       "value": null,
       "pages": {
-        "blog/data-files/index.html": 1,
+        "blog/a-new-post/index.html": 1,
         "blog/editable-regions/index.html": 1,
-        "blog/icons/index.html": 1,
         "blog/index.html": 1,
-        "blog/lighthouse-scores/index.html": 1,
-        "blog/markdown/index.html": 1,
-        "blog/page-building/index.html": 1,
-        "blog/paginated-collection/index.html": 1,
         "blog/processed-images/index.html": 1,
         "blog/search/index.html": 1,
-        "blog/seo/index.html": 1,
-        "blog/tailwind/index.html": 1,
         "tags/index.html": 1,
         "tags/search/index.html": 2
       },
-      "total": 15
+      "total": 8
     },
     "tag-labels:seo": {
       "original": "SEO",
       "value": null,
       "pages": {
+        "blog/a-new-post/index.html": 1,
         "blog/data-files/index.html": 2,
-        "blog/editable-regions/index.html": 2,
+        "blog/editable-regions/index.html": 1,
         "blog/icons/index.html": 1,
-        "blog/index.html": 3,
+        "blog/index.html": 2,
         "blog/lighthouse-scores/index.html": 2,
         "blog/markdown/index.html": 1,
         "blog/page-building/index.html": 1,
-        "blog/page/2/index.html": 1,
+        "blog/page/2/index.html": 2,
         "blog/paginated-collection/index.html": 1,
-        "blog/processed-images/index.html": 2,
-        "blog/search/index.html": 2,
+        "blog/processed-images/index.html": 1,
+        "blog/search/index.html": 1,
         "blog/seo/index.html": 2,
         "blog/tailwind/index.html": 1,
         "tags/accessibility/index.html": 1,
@@ -1851,7 +1895,7 @@
         "tags/navigation/index.html": 1,
         "tags/seo/index.html": 5
       },
-      "total": 36
+      "total": 34
     },
     "tag-labels:snippets": {
       "original": "Snippets",

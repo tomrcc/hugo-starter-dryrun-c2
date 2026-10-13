@@ -34,6 +34,16 @@
     "value": "Blog",
     "_base_original": "Blog"
   },
+  "blog/a-new-post:page_title": {
+    "original": "Test | Hugo Starter by CloudCannon",
+    "value": "Test | Hugo Starter by CloudCannon",
+    "_base_original": "Test | Hugo Starter by CloudCannon"
+  },
+  "blog/a-new-post:title": {
+    "original": "Test",
+    "value": "Test",
+    "_base_original": "Test"
+  },
   "blog/data-files:body": {
     "original": "<p>This template uses data files to:</p>\n<ul>\n<li>Populate select &amp; multiselect inputs in CloudCannon.\n<ul>\n<li>Colors</li>\n<li>Icons</li>\n<li>Tags</li>\n</ul>\n</li>\n<li>Set sitewide values such as the overall site SEO settings.\n<ul>\n<li>Site title</li>\n<li>Description</li>\n<li>OG image</li>\n<li>Page type</li>\n</ul>\n</li>\n<li>Control header and footer data to allow editors to control navigation.\n<ul>\n<li>Logo</li>\n<li>Colors</li>\n<li>Page links</li>\n<li>Social links</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>",
     "value": "<p>Ce modèle utilise des fichiers de données pour :</p>\n<ul>\n<li>Alimenter les champs de sélection simple et multiple dans CloudCannon.\n<ul>\n<li>Couleurs</li>\n<li>Icônes</li>\n<li>Étiquettes</li>\n</ul>\n</li>\n<li>Définir des valeurs globales au site, comme les réglages SEO généraux.\n<ul>\n<li>Titre du site</li>\n<li>Description</li>\n<li>Image OG</li>\n<li>Type de page</li>\n</ul>\n</li>\n<li>Gérer les données de l’en-tête et du pied de page pour que les rédacteurs puissent contrôler la navigation.\n<ul>\n<li>Logo</li>\n<li>Couleurs</li>\n<li>Liens des pages</li>\n<li>Liens vers les réseaux sociaux</li>\n<li>Copyright</li>\n</ul>\n</li>\n</ul>",
@@ -378,6 +388,11 @@
     "original": "June 21, 2025",
     "value": "21 juin 2025",
     "_base_original": "June 21, 2025"
+  },
+  "dates:2026-10-13": {
+    "original": "October 13, 2026",
+    "value": "October 13, 2026",
+    "_base_original": "October 13, 2026"
   },
   "footer:blog": {
     "original": "Blog",
