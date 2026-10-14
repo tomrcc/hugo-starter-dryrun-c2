@@ -1,5 +1,9 @@
 timezone: Etc/UTC
 
+markdown: 
+  options: 
+    typographer: true
+
 source_editor:
   tab_size: 2
   theme: sublime
