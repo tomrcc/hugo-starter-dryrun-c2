@@ -14,9 +14,8 @@ tags:
 thumb_image_path: /images/blog/blog-thumb-1.jpg
 thumb_image_alt: A birds eye view of a group of people working on laptops around a table.
 seo:
-  page_description: >-
-    A post describing how editable regions make a Hugo site editable in place in
-    CloudCannon's Visual Editor.
+  page_description: A post describing how editable regions make a Hugo site
+    editable in place in CloudCannon's Visual Editor.
   canonical_url:
   featured_image: /images/blog/featured-image-1.jpg
   featured_image_alt: A child working at a computer, seen from behind.
@@ -32,6 +31,10 @@ To add a new component, create a partial in `layouts/partials/`, add its styles 
 ## How it works in Hugo
 
 The integration ships as a Hugo module. It is imported in `hugo.yaml` and loaded by `{{ partial "editable-regions" . }}` in the site `<head>`, where it self-gates on the editor and stays inert on your live site.
+
+'single quotes'
+
+"double quotes"
 
 Marking something up as editable is a matter of adding attributes to the element you already render:
 
